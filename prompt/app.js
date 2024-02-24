@@ -16,6 +16,11 @@ console.log("Minus : " + minus);
 console.log("Multiplication : " + multiply);
 console.log("Division : " + divide);
 
+
+let username = prompt("Enter your name");
+alert("Welcome Mr. " + username)
+
+
 // hum prompt ky input me value bi show kr sakte hain 
 // let num1 = prompt("First Value",'shahwaiz');
 
