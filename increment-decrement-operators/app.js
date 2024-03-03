@@ -17,6 +17,3 @@ num2--
 num2--
 console.log(num2);
 
-const number = 2;
-number++ //error
-//console.log(number);

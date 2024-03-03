@@ -9,7 +9,8 @@ console.log(name===name2);
 let age = 20;
 
 //boolean
-let lightswitch_darkswitch = true;
+let light_switch = true;
+let dark_switch = false;
 
 //undefined
 let test;
