@@ -56,9 +56,10 @@ variable ki data type check krne ky liye hum typeof ka use krte hain
 
 /*Seven Data-Types in Javascript
 string = " "
-number
+number = 123
 boolean = true/ false
 undefined =
 null = object standalone value
-bigint
+symbol = Symbol("sha")
+bigint = BigInt(268890091982q91)
 */ 

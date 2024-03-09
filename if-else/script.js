@@ -1,22 +1,22 @@
 
-let user = Number(prompt("Wheather Check"));
+// let user = Number(prompt("Wheather Check"));
 //console.log(user)
 
-let condition = String(user) === "NaN"
+//let condition = String(user) === "NaN"
 //console.log(condition);
 
 /* agar condition true hogi tw if chalega warna else chal jaega */
-if(condition){
-    alert("Allow Only Number")
-}
+// if(condition){
+//     alert("Allow Only Number")
+// }
 
-if (user < 20) {
-   alert("Today wheather is Cold 😱😱")
-}
+// if (user < 20) {
+//    alert("Today wheather is Cold 😱😱")
+// }
 //warna
-else{
-  alert("Today wheater is Hot 😨😨")
-}
+// else{
+//   alert("Today wheater is Hot 😨😨")
+// }
 
 /*
 let myinput = document.querySelector("#my-input");
@@ -40,3 +40,12 @@ form.addEventListener("submit", (event) => {
 
 });
 */
+
+let number = 10;
+let condition = number % 2 ===  0;
+
+if (condition) {
+    console.log(number + " is even");
+} else {
+    console.log(number + " is odd");
+}
