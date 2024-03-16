@@ -16,10 +16,13 @@ b = temporary;
 //a = a + b; //20
 //b = a - b; //5
 //a = a - b; // 15
+//console.log(`a = ${a} b = ${b}`);
 
 
 /* 3rd */
 //[a,b] = [b,a]
+//console.log(`a = ${a} b = ${b}`);
+
 
 
 

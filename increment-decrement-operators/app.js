@@ -31,6 +31,7 @@ let nr2 = 10;
 let nr3 = 4;
 //console.log(nr1++ + ++nr2 * nr3++); Ans 49
 //console.log(nr1++ + ++nr2 * --nr3); Ans 38
+//console.log(`nr1=${nr1} nr2=${nr2} nr3=${nr3}`)  // backticks
 
 let nm1 = 5;
 let nm2 = 2;

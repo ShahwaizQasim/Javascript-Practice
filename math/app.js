@@ -41,7 +41,7 @@ console.log(3 + 5 * 7); // 38
  let nm2 = 4;
  let res = nm1 % nm2;
  //console.log("Modulus: " + res);// 3
- //console.log(`${nm1} % ${nm2} = ${res}`); // backticks
+ console.log(`${nm1} % ${nm2} = ${res}`); // backticks
 
 
 //Examle

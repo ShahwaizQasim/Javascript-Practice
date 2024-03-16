@@ -41,6 +41,20 @@ form.addEventListener("submit", (event) => {
 });
 */
 
+
+// let username = prompt("Enter Your Field");
+// if (username === "IT" || username==="it") {
+//   let userage = prompt("Enter Your Age");
+//   if (userage >= 18 && userage <= 40) {
+//     alert("You are selected");
+//   } else {
+//     alert("You are not selected");
+//   }
+// } else {
+//   alert("Invalid Field");
+// }
+
+
 let number = 10;
 let condition = number % 2 ===  0;
 
