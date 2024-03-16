@@ -46,6 +46,35 @@ let b = 20;
 //console.log( a <= b ) // => b ki value bari ho ya b ky braber ho a ki value
 
 
+/* Logical Operators */
 
+// || Or operator
+// && Operator
 
+let num1 = 5;
+let num2 = 10;
+
+// Or Operator
+/* Or operator me ak bi value true tw condition true */
+//console.log( false || false); //false
+//console.log( true || false); //true
+
+//Example
+// if (num1 > num2 || num1 < num2) {
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
+
+//&& Operator
+/* && operator me ak bi value false tw condition false*/
+//console.log(false && true); // false
+//console.log(true && true); // true
+
+//Example
+// if (num2 > num1 && num1 < num2) {
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
 
