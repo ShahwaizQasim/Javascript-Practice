@@ -1,12 +1,12 @@
 let colors = ["Red","Brown","Yellow","Gray","White"];
 
 
-//start se
+//End se
 //colors.push("Black"); // push end me value add krta hai
 //colors.pop()  // pop end se value remove krta hai
 
 
-//End se
+//Start se
 //not recommended
 //colors.unshift("Black") // unshift start se element add krta hai
 //colors.shift() //shift start se element remove krta hai

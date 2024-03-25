@@ -64,7 +64,7 @@ let boolean = Boolean("sha");
 let test3 = "shehzad" && true;
 let test4 = Boolean(null && "shehzad" && 56);
 let test5 = Boolean(true && "shehzad" && 56);
-//console.log(test5);
+//console.log(test4);
 let test6 = true && 0 && 56;
 let test7 = "hh" && null;
 let test8 = "hh" && "kk";
