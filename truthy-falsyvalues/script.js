@@ -10,7 +10,32 @@
 // undefined
 // NaN
 
-let boolean = Boolean("sha");
+
+
+
+/* primitive data types */
+//7 types : String,Number,Boolean,Null,undefined,symbol,BigInt 
+
+/* Reference / non-primitive data types */
+//Array,Objects,Functions
+
+//array
+const myarray = [1,"hello",false];
+
+//object
+const myobject = {
+    name: "hitesh",
+    age: 22,
+}
+
+//function
+let myFunction = function(){
+  console.log("Hello World");
+}
+
+
+
+//let boolean = Boolean("sha");
 //console.log(boolean);
 
 
@@ -61,10 +86,10 @@ let boolean = Boolean("sha");
 
 
 // aakhir truthy value return kare ga
-let test3 = "shehzad" && true;
-let test4 = Boolean(null && "shehzad" && 56);
-let test5 = Boolean(true && "shehzad" && 56);
+//let test3 = "shehzad" && true;
+//let test4 = Boolean(null && "shehzad" && 56);
+//let test5 = Boolean(true && "shehzad" && 56);
 //console.log(test4);
-let test6 = true && 0 && 56;
-let test7 = "hh" && null;
-let test8 = "hh" && "kk";
+//let test6 = true && 0 && 56;
+//let test7 = "hh" && null;
+//let test8 = "hh" && "kk";
