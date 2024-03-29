@@ -19,3 +19,12 @@ let colors = ["Red","Brown","Yellow","Gray","White"];
 console.log(colors);
 
 //console.log(colors[3]);
+
+/* user se input lekr array me add krwane ka method */
+let userName = [];
+let names = prompt("Enter Your Name");
+if (names) {
+    alert("Welcome "+ names)
+}
+userName.push(names);
+console.log(userName);

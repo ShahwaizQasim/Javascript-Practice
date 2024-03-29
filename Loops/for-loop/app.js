@@ -34,14 +34,28 @@
 
 
 /* Reverse Counting Method 1 */
-for (let i = 10; i > 0; i--) {
-    document.write(`Reverse Counting ${i} <br/>` );
-}
+// for (let i = 10; i > 0; i--) {
+//     document.write(`Reverse Counting ${i} <br/>` );
+// }
 
 
 /* Reverse Counting Method 2 */
-for (let i = 0; i < 10; i++) {
-    document.write(`${10 - i}  <br/>`);
-}
+// for (let i = 0; i < 10; i++) {
+//     document.write(`${10 - i}  <br/>`);
+// }
+
+
+
+
+
+// let pets = [];
+// pets[0] = "dog";
+// pets[1] = "dog";
+// pets[2] = "dog";
+// pets[3] = "dog";
+//console.log(pets);
+// console.log(pets.length);
+
+
 
 
