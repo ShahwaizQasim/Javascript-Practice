@@ -11,14 +11,6 @@
 // NaN
 
 
-
-
-/* primitive data types */
-//7 types : String,Number,Boolean,Null,undefined,symbol,BigInt 
-
-/* Reference / non-primitive data types */
-//Array,Objects,Functions
-
 //array
 const myarray = [1,"hello",false];
 
