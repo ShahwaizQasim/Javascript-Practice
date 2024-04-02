@@ -39,3 +39,20 @@ if (!fee) console.log("Fee Pay Kro");
 if (!assignment) console.log("Abhi Class me Assignment Banao");
 if (time > 9) console.log("dafa ho joa");
 if (time > 8.5) console.log("time pr ao class me");
+
+
+/* Vote System */
+
+let age = prompt("Enter Your Age");
+if (age >= 18) {
+    document.write("You Can Vote <br/>");
+    if (age >= 60) {
+        document.write("You can two times vote");
+    }
+}
+else{
+    document.write("You Can not Vote <br/>");
+    if (age <= 10) {
+        document.write("You can must go to the school");
+    }
+}

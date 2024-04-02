@@ -27,5 +27,6 @@ let userOne = {
 let userTwo = userOne;
 userTwo.email = "wasid@gmail.com";
 userTwo.upi = "wasid@ybl";
+
 console.log(userOne);
 console.log(userTwo);

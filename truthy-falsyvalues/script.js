@@ -77,11 +77,24 @@ let myFunction = function(){
 // }
 
 
-// aakhir truthy value return kare ga
-//let test3 = "shehzad" && true;
-//let test4 = Boolean(null && "shehzad" && 56);
-//let test5 = Boolean(true && "shehzad" && 56);
-//console.log(test4);
-//let test6 = true && 0 && 56;
-//let test7 = "hh" && null;
-//let test8 = "hh" && "kk";
+// aakhir me truthy value return kare ga
+let test2 = true && "shehzad";
+let test3 = "shehzad" && true;
+let test4 = null && "shehzad" && 56;
+let test = "shehzad" && null && 56;
+let test5 = true && "shehzad" && 56;
+let test6 = true && 0 && 56;
+let test7 = "hh" && null;
+let test8 = "hh" && "kk";
+
+// Phale truthy value return kare ga
+let test9 = "shehzad" || true;
+//console.log(test9);
+let test10 = "" || null;
+let test11 = "" || true;
+let test12 = "shehzad" || 0 || null || true;
+let test13 = null || "shehzad" || 56;
+let test14 = true || "shehzad" || 56;
+let test15 = false || 0 || 56;
+let test16 = "hh" || null;
+let test17 = "hh" || "kk";
