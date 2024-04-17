@@ -59,7 +59,7 @@ matrix ko plus kiya hai and print bi matrix form me kiya hai
 */
 
 if (matrix1.length === matrix2.length && matrix1[0].length === matrix2[0].length) {
-    //console.log("consdition sahi hai");
+    //console.log("condition sahi hai");
     for (let i = 0; i < matrix1.length; i++) {
         let row = [];
         //console.log(i);

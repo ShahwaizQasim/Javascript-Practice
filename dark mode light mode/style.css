@@ -1,0 +1,8 @@
+
+.dark{
+    background-color: black;
+    color:white;
+}
+.heading{
+    color: var(--color);
+}
