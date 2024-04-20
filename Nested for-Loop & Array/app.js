@@ -34,14 +34,15 @@ let array = [
 // j = 0 1 2 , 0 1 2, 0 1 2
 //console.log(a);
 
-// let myArr = [[2,3,4,2,1,4],[5,1],[5],[9,8,7]];
+// let myArr = [[2, 3, 4, 2, 1, 4], [5, 1], [5], [9, 8, 7]];
 
 // for (let i = 0; i < myArr.length; i++) {
-//     for (let j = 0; j < myArr[i].length; j++) {
-//         //console.log(`i is ${i} and j is ${j}`);
-//         console.log(myArr[i][j]);
-//         //console.log(i);
-//     }
+//   //console.log(myArr[i].length);
+//   for (let j = 0; j < myArr[i].length; j++) {
+//     //console.log(`i is ${i} and j is ${j}`);
+//     console.log(myArr[i][j]);
+//     //console.log(i);
+//   }
 // }
 
 /* 
@@ -64,3 +65,17 @@ Nested Array Print All Values
 //   }
 //   console.log("End");
 // }
+
+/* Nested Array, 2d Array, Multidimensional Array */
+let matrix1 = [
+  [3, 5, 6],
+  [5, 6, 9],
+  [7, 3, 6] 
+];
+
+//console.log(matrix1[0][0] ** 2);
+for (let i = 0; i < matrix1.length; i++) {
+   for (let j = 0; j < matrix1[i].length; j++) {
+      console.log(matrix1[i][j] ** 2);
+   }
+}

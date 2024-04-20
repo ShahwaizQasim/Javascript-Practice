@@ -74,3 +74,19 @@ if (matrix1.length === matrix2.length && matrix1[0].length === matrix2[0].length
 }else{
     console.log("Arrays have different dimensions, Cannot Perform Addition");
 }
+
+
+
+/* Nested Array, 2d Array, Multidimensional Array */
+let matrix5 = [
+    [3, 5, 6],
+    [5, 6, 9],
+    [7, 3, 6] 
+  ];
+  
+  //console.log(matrix1[0][0] ** 2);
+  for (let i = 0; i < matrix5.length; i++) {
+     for (let j = 0; j < matrix5[i].length; j++) {
+        console.log(matrix5[i][j] ** 2);
+     }
+  }
