@@ -1,9 +1,15 @@
 
-function dowork() {
+/*
+Class 1 
+Function Introduction
+*/
+function dowork() { 
+    //function ki definition
     console.log("Hello World");
 }
-dowork();
-dowork();
+//ye function ka reference hai or ye () call signature hai
+//dowork();
+//dowork();
 
 // jidher se call hoga udher hi value return hogi
 function addition(num1,num2){
@@ -17,4 +23,66 @@ function addition(num1,num2){
 
 }
 // koi function jb kuch bi return nhi krta tw undefined return krta hai
-console.log(addition(2, 5));
+//console.log(addition(5, 5));
+
+/* 
+Class 2 Function
+*/
+
+function average(numArr){
+              //perameter
+    let sum = 0;
+    for (let i = 0; i < numArr.length; i++) {
+        //sum += numArr[i];
+        sum = sum + numArr[i];
+    }
+
+    let avg = sum / numArr.length;
+     
+    return avg;
+}
+//console.log(average([5,7,3,6,9,6])); // arguments
+//console.log(average([5,7,14])); // arguments
+
+
+/* Default Perameter */
+function sum(num1,num2 = 0){
+    let addition = num1 + num2;
+    return addition;
+ }
+ //console.log(sum(4)); // agr hum ak argument pass karengy tw wo default perameter ki value lega
+
+
+ /* Arrow Function */
+let subtraction = (a, b = 1) => {
+    let minus = a - b;
+    return minus;
+}
+//console.log(subtraction(5,8));
+
+
+/* IIFE = Immediately Invoked Function Expression */
+
+(function () {
+    console.log("hello!");
+})()
+console.log();
+
+
+/* rest operator using in arrow function*/
+
+let multiply = (a, b, ...c) => {
+    let result = a * b;
+    for (let i = 0; i < c.length; i++) {
+        //console.log(c[i]);
+        result = result * c[i];
+    }
+    return result;
+}
+console.log(multiply(1,3,4,5,6,7,2));
+
+
+//activity
+const muFun = () => 6 * 4 - 24;
+console.log(muFun() ? "agaya samajh" : "nahi aaya samajh"); // nahi aya samajh
+
