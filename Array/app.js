@@ -28,3 +28,20 @@ if (names) {
 }
 userName.push(names);
 console.log(userName);
+
+
+/*array me duplicate element ko value ko dhoonda hai*/
+let array = [1,2,3,4,5,1]; 
+
+function myarray(){
+    array.sort();
+    for (let i = 0; i < array.length; i++) {
+        //console.log(array[i]);
+        if (array[i] === array[i + 1]) {
+            console.log("hello");
+            return true;
+        }
+    }
+    return false;
+}
+console.log(myarray()) ;

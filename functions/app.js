@@ -86,3 +86,20 @@ console.log(multiply(1,3,4,5,6,7,2));
 const muFun = () => 6 * 4 - 24;
 console.log(muFun() ? "agaya samajh" : "nahi aaya samajh"); // nahi aya samajh
 
+
+/*array me duplicate element ko value ko dhoonda hai*/
+let array = [1,2,3,4,5,1]; 
+
+function myarray(){
+    array.sort();
+    for (let i = 0; i < array.length; i++) {
+        //console.log(array[i]);
+        if (array[i] === array[i + 1]) {
+            console.log("hello");
+            return true;
+        }
+    }
+    return false;
+}
+console.log(myarray()) ;
+
