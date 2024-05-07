@@ -87,6 +87,16 @@ const muFun = () => 6 * 4 - 24;
 console.log(muFun() ? "agaya samajh" : "nahi aaya samajh"); // nahi aya samajh
 
 
+function loginUser(usermessage){
+    if (!usermessage) {  // agr user apna name nahi input karega tw ye if ki condition chalegi 
+        console.log("Please Enter your name");
+        return;
+    }
+    return `${usermessage} just Loggedin`;
+}
+console.log(loginUser());
+
+
 /*array me duplicate element ko value ko dhoonda hai*/
 let array = [1,2,3,4,5,1]; 
 
