@@ -82,12 +82,37 @@ let multiply = (a, b, ...c) => {
 console.log(multiply(1,3,4,5,6,7,2));
 
 
+/* practice function
+ user value se input lega */ 
+let myFunc = (username) => {
+    if (!username) {
+        console.log("please enter your name");
+    }
+   return `${username} just Loggedin`;
+}
+console.log(myFunc("Ali"));
+// if (myFunc() === "") {
+//     alert("Please enter your name");
+// }else{
+//     console.log(myFunc("Ali"));
+// }
+
+/* array & function */
+const myArray = [15,20,35,55,77];
+
+function arrayValuesControl(getArray){
+     return getArray[3];
+}
+console.log(arrayValuesControl(myArray));
+console.log(arrayValuesControl([200,500,100,3000]));
+
+
 //activity
 const muFun = () => 6 * 4 - 24;
 console.log(muFun() ? "agaya samajh" : "nahi aaya samajh"); // nahi aya samajh
 
 
-/*array me duplicate element ko value ko dhoonda hai*/
+/*array me duplicate element ko dhoonda hai*/
 let array = [1,2,3,4,5,1]; 
 
 function myarray(){

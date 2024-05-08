@@ -35,7 +35,7 @@ let nums = [1,2,3,4,5,6,7,8,9];
 //console.log(myArray.join('-')); //ye array ki value ko join krta hai
 
 //console.log(myArray.reverse()); // reverse value ko ulta krta hai
-console.log(nums.reverse()); // reverse number ko ulta krta hai
+//console.log(nums.reverse()); // reverse number ko ulta krta hai
 
 //console.log(nums.length); // length array ki lenth batata hai
 
@@ -44,7 +44,7 @@ console.log(nums.reverse()); // reverse number ko ulta krta hai
 
 //console.log(nums.sort(a,b) => a - b);
 
-//console.log(myArray.includes("Shehzad"));
+console.log(myArray.includes("Ali")); // includes array me elements ko search krta hai agr elements array mil jae tw true return krta hai 
 
 //let returnvalue1 = myArray.indexOf("Ali") // ye array ki index maloom krne ky liye use hota hai
 //let returnvalue2 = myArray.lastIndexOf("Ali"); // ye array ki last-index maloom krne ky liye use hota hai
@@ -60,6 +60,10 @@ console.log(nums.reverse()); // reverse number ko ulta krta hai
 //  months.splice(4,0,"May"); 
 //months.splice(3,1)
 //console.log(months);
+
+let p = "A man, a plan, a canal: Panama";
+//p = p.replace(" ",""); // replace kisi bhi element ko replace kr deta hai
+//p = p.replaceAll(" ",""); // replace jis bhi element ko ap replace krna chate ho replaceAll sab ko replace kr deta hai
 
 
 
