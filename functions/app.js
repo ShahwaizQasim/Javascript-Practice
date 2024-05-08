@@ -81,22 +81,6 @@ let multiply = (a, b, ...c) => {
 }
 console.log(multiply(1,3,4,5,6,7,2));
 
-
-/* practice function
- user value se input lega */ 
-let myFunc = (username) => {
-    if (!username) {
-        console.log("please enter your name");
-    }
-   return `${username} just Loggedin`;
-}
-console.log(myFunc("Ali"));
-// if (myFunc() === "") {
-//     alert("Please enter your name");
-// }else{
-//     console.log(myFunc("Ali"));
-// }
-
 /* array & function */
 const myArray = [15,20,35,55,77];
 
@@ -110,6 +94,16 @@ console.log(arrayValuesControl([200,500,100,3000]));
 //activity
 const muFun = () => 6 * 4 - 24;
 console.log(muFun() ? "agaya samajh" : "nahi aaya samajh"); // nahi aya samajh
+
+
+function loginUser(usermessage){
+    if (!usermessage) {  // agr user apna name nahi input karega tw ye if ki condition chalegi 
+        console.log("Please Enter your name");
+        return;
+    }
+    return `${usermessage} just Loggedin`;
+}
+console.log(loginUser());
 
 
 /*array me duplicate element ko dhoonda hai*/
