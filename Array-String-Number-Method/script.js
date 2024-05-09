@@ -37,7 +37,7 @@ let nums = [1,2,3,4,5,6,7,8,9];
 //console.log(myArray.reverse()); // reverse value ko ulta krta hai
 //console.log(nums.reverse()); // reverse number ko ulta krta hai
 
-//console.log(nums.length); // length array ki lenth batata hai
+//console.log(nums.length); // length array ki lenth batata hai but number ki length nhi batata
 
 //console.log(myArray.sort()); // sort value ko alphabet ky sequence se likhta hai
 //console.log(nums.sort()); // sort value ko alphabet ky sequence se likhta hai
@@ -76,7 +76,7 @@ let p = "A man, a plan, a canal: Panama";
 let myStr = "      My Name is shehzad iqbal this can       "
 //console.log(myStr);
 //console.log(myStr.trim()); //trim string se extra gap khatam krta hai
-//let myStr_split = myStr.split(" ") //ye value ko tor deta hai
+//let myStr_split = myStr.split(" ") //ye value ko tor deta hai and ye numbers ko split nhi krta
 //let myStr_join = myStr_split.join(" ") //ye value ko join kr deta hai
 
 let name = "shaHwaIz-ali";
@@ -101,7 +101,7 @@ const url = "https://github.com/shahwaiz%20qasim";
 
 //console.log(url.replace('%20','-')); // hum string ko replace bhi krwa sakte hain
 
-//console.log(url.includes('sundar')); // includes se hum check krwate hain ye string hai ya nhi
+//console.log(url.includes('sundar')); // includes se hum check krwate hain ye string array me hai ya nhi
 
 //console.log(url);
 
