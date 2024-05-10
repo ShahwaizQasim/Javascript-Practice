@@ -3,6 +3,9 @@
 //string
 let name = "Shahwaiz";
 let name2 = "Shahwaiz"
+
+let name3 = ""
+
 //console.log(name===name2);
 
 //number

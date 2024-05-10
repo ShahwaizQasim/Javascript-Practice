@@ -45,9 +45,6 @@
 // }
 
 
-
-
-
 // let pets = [];
 // pets[0] = "dog";
 // pets[1] = "dog";
@@ -56,6 +53,7 @@
 //console.log(pets);
 // console.log(pets.length);
 
+//  Loops Chapter Continue page # 110
 
 
 

@@ -33,8 +33,8 @@ console.log(y);
 
 /* Comparison Operator */
 
-let a = 20;
-let b = 20;
+// let a = 20;
+// let b = 20;
 
 //console.log( a == b )  // =>  ye sirf value check krta hai 
 //console.log( a === b ) // =>  ye value or data-type dono check krta hai
@@ -101,3 +101,12 @@ let test15 = false || 0 || 56;
 let test16 = "hh" || null;
 let test17 = "hh" || "kk";
 
+
+let a = 5;
+let b = 10;
+let c = 20;
+let d = 30;
+console.log(a > b || b > a); // true
+console.log(a > b && b > a); // false
+console.log(d > b || b > a); // true
+console.log(d > b && b > a); // true

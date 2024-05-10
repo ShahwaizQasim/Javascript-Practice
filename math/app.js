@@ -79,3 +79,6 @@ console.log(arr[0]);
  salary = salary + (salary/100) * 50; // salary 50% increse ki hai
  //salary += (salary/100) * 50; both are some
  //console.log(salary);
+
+//  Even Number: 2,4,6,8,10
+//  Odd Numbers: 1,3,5,7,9
