@@ -3,6 +3,7 @@
 Class 1 
 Function Introduction
 */
+
 function dowork() { 
     //function ki definition
     console.log("Hello World");
@@ -10,6 +11,14 @@ function dowork() {
 //ye function ka reference hai or ye () call signature hai
 //dowork();
 //dowork();
+
+
+function helloUser(){
+    let you = prompt("Enter Your Name");
+    alert(`Hello ${you} !`)
+    return you;
+}
+helloUser();
 
 // jidher se call hoga udher hi value return hogi
 function addition(num1,num2){
@@ -66,7 +75,7 @@ let subtraction = (a, b = 1) => {
 (function () {
     console.log("hello!");
 })()
-console.log();
+//console.log();
 
 
 /* rest operator using in arrow function*/
@@ -79,7 +88,7 @@ let multiply = (a, b, ...c) => {
     }
     return result;
 }
-console.log(multiply(1,3,4,5,6,7,2));
+//console.log(multiply(1,3,4,5,6,7,2));
 
 /* array & function */
 const myArray = [15,20,35,55,77];
@@ -87,8 +96,8 @@ const myArray = [15,20,35,55,77];
 function arrayValuesControl(getArray){
      return getArray[3];
 }
-console.log(arrayValuesControl(myArray));
-console.log(arrayValuesControl([200,500,100,3000]));
+//console.log(arrayValuesControl(myArray));
+//console.log(arrayValuesControl([200,500,100,3000]));
 
 
 //activity
@@ -103,7 +112,7 @@ function loginUser(usermessage){
     }
     return `${usermessage} just Loggedin`;
 }
-console.log(loginUser());
+//console.log(loginUser());
 
 
 /*array me duplicate element ko dhoonda hai*/
@@ -120,5 +129,5 @@ function myarray(){
     }
     return false;
 }
-console.log(myarray()) ;
+//console.log(myarray()) ;
 

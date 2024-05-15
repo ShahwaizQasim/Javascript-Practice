@@ -53,7 +53,32 @@
 //console.log(pets);
 // console.log(pets.length);
 
-//  Loops Chapter Continue page # 110
+// let arr = [];
+// for (let i = 1; i <= 10; i++) {
+//  console.log(arr.push(i));
+// }
+//console.log(arr);
+
+/* Array Values Print */
+// let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+// for (let i = 0; i < names.length; i ++){
+//  names[i] = `Hello ${names[i]}`; // array me string add ki hai
+//  console.log(names[i]);
+// }
+
+
+let namesArr = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+for (let i = 0; i < namesArr.length; i++) {
+    if (namesArr[i].startsWith("M")) {
+        delete namesArr[i];
+        continue;
+    }
+}
+// console.log(namesArr);
+
+
+
+//  Loops Chapter Continue page # 124
 
 
 

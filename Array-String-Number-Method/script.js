@@ -16,8 +16,8 @@ let colors = ["Red","Brown","Yellow","Gray","White"];
 //console.log(colors);
 
 
-//console.log(colors.at(-1)); // prints last value prrint 1st method
-//console.log(colors[colors.length -1]); // last value print 2nd method
+//console.log(colors.at(-1)); // array last value print 1st method
+//console.log(colors[colors.length -1]); // array last value print 2nd method
 
 
 
@@ -44,7 +44,7 @@ let nums = [1,2,3,4,5,6,7,8,9];
 
 //console.log(nums.sort(a,b) => a - b);
 
-console.log(myArray.includes("Ali")); // includes array me elements ko search krta hai agr elements array mil jae tw true return krta hai 
+// console.log(myArray.includes("Ali")); // includes array me elements ko search krta hai agr elements array mil jae tw true return krta hai 
 
 //let returnvalue1 = myArray.indexOf("Ali") // ye array ki index maloom krne ky liye use hota hai
 //let returnvalue2 = myArray.lastIndexOf("Ali"); // ye array ki last-index maloom krne ky liye use hota hai
@@ -52,7 +52,7 @@ console.log(myArray.includes("Ali")); // includes array me elements ko search kr
 //console.log(returnvalue2);
 
 //let fruits = ["Banana","Orange","Apple","Peache"];
-//console.log(fruits.slice(0,3)); // zero se 2 tak
+//console.log(fruits.slice(0,3)); // zero se 2 tak slice jese 0 se 3 tak diya hai ye 3 ko count nhi krta sirf 2 tak print hoga
 
 
  let months = ['Jan','March','April','June']
@@ -86,6 +86,9 @@ let firstAlpha = name.slice(0,1).toUpperCase();
 let baqiAlpha = name.slice(1).toLowerCase();
 let final = firstAlpha + baqiAlpha;
 //console.log(final);
+
+let newText = "Hello World";
+console.log(newText.startsWith("W"));
 
 //console.log(final.charAt(3)); // hum index de kr value maloom kr sakte hain  
 
@@ -122,6 +125,17 @@ const otherNumber = 23.8966;
 const hundreds = 1000000;
 //console.log(hundreds.toLocaleString('en-IN'));
 
+
+// let myText = "Hello My name is Syed Shahwaiz Shah And My father name is Shah ali";
+// let mytxt = myText.replace("Hello","Hi") // replace array me se ak string ko replace krta hai
+// let mytext = mytxt.replaceAll(/Shah/g,"Qasim"); // replaceAll string ya array me se multiple element ko replace kr deta hai
+// console.log(mytext);
+
+
+// let str = 'hello world hello world'
+// let strChange = str.replace(/world/g, 'Pakistan'); // ye sentence ko change krny ky kaam ayega
+// document.write(strChange);
+
 /* ############################################# Maths #################################################### */
 
 // console.log(Math);
@@ -141,11 +155,13 @@ const hundreds = 1000000;
 
 // console.log(Math.random()); // ye har bar refresh krny se new number genrate krta hai
 
- console.log((Math.random() * 10 ) + 2);
+ // console.log((Math.random() * 10 ) + 2);
 
 // console.log(Math.floor(Math.random()*10) + 1);
 
-
+// let num = Math.random() * 2; // math.random screen refresh krne pr har bar new number genrate krta hai
+// let secondnum = Math.floor(num); // Math.floor point ky bad ki values ko remove krta hai
+// console.log(secondnum);
 
 // const min = 10;
 // const max = 20;

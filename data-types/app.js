@@ -3,6 +3,8 @@
 //string
 let name = "Shahwaiz";
 let name2 = "Shahwaiz"
+name2 = Number(name2);
+console.log(name2); //NaN
 
 let name3 = ""
 
