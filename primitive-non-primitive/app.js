@@ -20,13 +20,13 @@
 
 //Array,Objects,Functions
 
-let userOne = {
-    email : "shah@google.com",
-    upi : "user@ybl",
-}
-let userTwo = userOne;
-userTwo.email = "wasid@gmail.com";
-userTwo.upi = "wasid@ybl";
+// let userOne = {
+//     email : "shah@google.com",
+//     upi : "user@ybl",
+// }
+// let userTwo = userOne;
+// userTwo.email = "wasid@gmail.com";
+// userTwo.upi = "wasid@ybl";
 
-console.log(userOne);
-console.log(userTwo);
+// console.log(userOne);
+// console.log(userTwo);

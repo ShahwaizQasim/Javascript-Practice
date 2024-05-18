@@ -54,6 +54,14 @@ let nums = [1,2,3,4,5,6,7,8,9];
 //let fruits = ["Banana","Orange","Apple","Peache"];
 //console.log(fruits.slice(0,3)); // zero se 2 tak slice jese 0 se 3 tak diya hai ye 3 ko count nhi krta sirf 2 tak print hoga
 
+/* Slice for example */
+// let userInput = prompt("Enter a month");
+// let userMonthLength = userInput.length;
+// if (userMonthLength > 3 ) {
+//     userInput = userInput.slice(0,3)
+// }
+// console.log(userInput);
+
 
  let months = ['Jan','March','April','June']
 //  months.splice(1,0,"Feb");  //splice me hum value remove bi kr sakte hain or add bi kr sakte hain 
@@ -135,6 +143,11 @@ const hundreds = 1000000;
 // let str = 'hello world hello world'
 // let strChange = str.replace(/world/g, 'Pakistan'); // ye sentence ko change krny ky kaam ayega
 // document.write(strChange);
+
+let fullName = "Shahwaiz"; // charAt()
+//console.log(fullName.charAt(fullName.charAt())); // jese hum array ki index ko print krwate hai wese chatAt function se hum string me se kisi alphabet ko print krwa sakte hain
+//console.log(fullName.charAt(fullName.length-1)); // is sy hum string ka last alphabet print krwa sakte hain  
+
 
 /* ############################################# Maths #################################################### */
 

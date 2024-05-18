@@ -13,12 +13,17 @@ function dowork() {
 //dowork();
 
 
-function helloUser(){
-    let you = prompt("Enter Your Name");
-    alert(`Hello ${you} !`)
-    return you;
-}
-helloUser();
+// function helloUser(){
+//     let userName = prompt("Enter Your Name");
+//     let userName2 = Number(userName);
+//     if (String(userName2) !== NaN) {
+//         alert("Number Not Allow");
+//     }else{
+//     alert(`Hello ${userName} !`);
+//     }
+//     return userName;
+// }
+// helloUser();
 
 // jidher se call hoga udher hi value return hogi
 function addition(num1,num2){
