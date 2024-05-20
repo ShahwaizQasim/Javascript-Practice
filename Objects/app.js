@@ -2,7 +2,8 @@
 let student1 = ['web','cit','graphics','ali',25,];  // sequential data
 //console.log(student1[1]);
 
-/* Object Literal */
+/* Object Literal non squential data */
+
 let Course = "Web and Mobile App Development";
 
 let userName = "Your Name"
@@ -43,9 +44,9 @@ let mobile = {
 
 let a = "company"; 
 //mobile[a] = "Realme" object ki company ko dubara reassign kiya hai
-console.log(mobile.a); // . se undefined ayega agr key ko object ky bhr kisi variable me store kiya ho tw undefined ayega
-console.log(mobile[a]); // [] se jo bi key ki value hogi print ho jaegi
-console.log(mobile[0]); // looks like array because array is a construct
+// console.log(mobile.a); // . se undefined ayega agr key ko object ky bhr kisi variable me store kiya ho tw undefined ayega
+// console.log(mobile[a]); // [] se jo bi key ki value hogi print ho jaegi
+// console.log(mobile[0]); // looks like array because array is a construct
 
 
 
@@ -87,4 +88,57 @@ let jsUser = {
 
 
  // JSON = javascript object notation
+
+
+//  const tinderUser = new Object();   // singleton Object
+
+const tinderUser = {};  // non singleton Object
+tinderUser.id = "123abc";
+tinderUser.name = "Sammy";
+tinderUser.isLoggedIn = false;
+
+//console.log(tinderUser);
+
+
+const regularUser = {
+  email:"syedshahwaiz@gmail.com",
+  fullName:{ 
+    userfullname:{
+      firstName: "Syed",
+      lastName: "Shahwaiz",
+    }
+  }
+}
+
+console.log(regularUser.fullName.userfullname.lastName);
+
+
+const obj1 = {1: "a", 2: "b"};
+const obj2 = {2: "a", 3: "b"};
+const obj3 = {4: "a", 5: "b"};
+
+//const obj4 = { obj1, obj2, obj3}; // object concat krny ka method1
+//const obj4 = Object.assign({}, obj1, obj2, obj3); // object concat krny ka method2
+const obj4 = { ...obj1, ...obj2, ...obj3}; // object concat krny ka method3
+//console.log(obj4);
+
+
+/* Array of Objects */
+const users = [
+  {
+    id: 1,
+    email: "syed@gmail.com",
+  },
+  {
+    id: 2,
+    email: "qasim@gmail.com",
+  },
+  {
+    id: 3,
+    email: "wasid@gmail.com",
+  },
+] 
+
+console.log(users[0].id);
+
 
