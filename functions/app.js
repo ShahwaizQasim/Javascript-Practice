@@ -29,15 +29,14 @@ function dowork() {
 function addition(num1,num2){
     //num1 and num2 is perameter
     let result = num1 + num2;
-    return result;
+    return result; // jb hum return pass nhi krte tw phir undefined print hota hai
     //return "shehzad";
      //return last me hoga
-    // return siuf ak bat ho sakta hai
     //return ky bad function nhi chlta
 
 }
-// koi function jb kuch bi return nhi krta tw undefined return krta hai
-//console.log(addition(5, 5));
+// jb hum function me koi argument pass nhi krte tw phr NaN return krta hai
+//console.log(addition(5,15));
 
 /* 
 Class 2 Function
@@ -64,15 +63,15 @@ function sum(num1,num2 = 0){
     let addition = num1 + num2;
     return addition;
  }
- //console.log(sum(4)); // agr hum ak argument pass karengy tw wo default perameter ki value lega
-
+// console.log(sum(4,5)); // agr hum ak argument pass karengy tw wo default perameter ki value lega
+              
 
  /* Arrow Function */
 let subtraction = (a, b = 1) => {
     let minus = a - b;
     return minus;
 }
-//console.log(subtraction(5,8));
+console.log(subtraction(8,5));
 
 
 /* IIFE = Immediately Invoked Function Expression */

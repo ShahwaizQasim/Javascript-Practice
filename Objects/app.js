@@ -97,6 +97,10 @@ tinderUser.id = "123abc";
 tinderUser.name = "Sammy";
 tinderUser.isLoggedIn = false;
 
+console.log(Object.keys(tinderUser)); // ye objects ki key array ki form me print krwata hai
+console.log(Object.values(tinderUser)); // ye objects ki value array ki form me print krwata hai
+console.log(Object.entries(tinderUser)); // ye array ky ander nested array me key or value ko print krwata hai
+
 //console.log(tinderUser);
 
 
@@ -139,6 +143,6 @@ const users = [
   },
 ] 
 
-console.log(users[0].id);
+//console.log(users[0].id);
 
 
