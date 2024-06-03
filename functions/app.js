@@ -71,7 +71,7 @@ let subtraction = (a, b = 1) => {
     let minus = a - b;
     return minus;
 }
-console.log(subtraction(8,5));
+//console.log(subtraction(8,5));
 
 
 /* IIFE = Immediately Invoked Function Expression */
@@ -98,15 +98,15 @@ let multiply = (a, b, ...c) => {
 const myArray = [15,20,35,55,77];
 
 function arrayValuesControl(getArray){
-     return getArray[3];
+     return getArray[1]; // getArray se hum array ky element ko pakr sakte hain 
 }
-//console.log(arrayValuesControl(myArray));
+console.log(arrayValuesControl(myArray));
 //console.log(arrayValuesControl([200,500,100,3000]));
 
 
 //activity
 const muFun = () => 6 * 4 - 24;
-console.log(muFun() ? "agaya samajh" : "nahi aaya samajh"); // nahi aya samajh
+console.log(muFun() ? "nahi aaya samajh" : "agaya samajh"); // nahi aya samajh
 
 
 function loginUser(usermessage){
@@ -120,8 +120,8 @@ function loginUser(usermessage){
 
 
 /*array me duplicate element ko dhoonda hai*/
-let array = [1,2,3,4,5,1]; 
 
+let array = [1,2,3,4,5,2];
 function myarray(){
     array.sort();
     for (let i = 0; i < array.length; i++) {
@@ -133,5 +133,5 @@ function myarray(){
     }
     return false;
 }
-//console.log(myarray()) ;
+console.log(myarray()) ;
 

@@ -19,19 +19,20 @@ let student2 = {
    myteacher:{name: "Shehzad", age: 24,},
    test: {}, // this is empty object
 }
-//console.log(student2); // objects print
+// console.log(student2); // objects print
 
-//console.log(student2.Course); // objects name print
+// console.log(student2[userName]); // objects name print
 
-//console.log(student2.hobbies[2]); // objects ky ander se array print krwaya hai
+// console.log(student2.hobbies[2]); // objects ky ander se array print krwaya hai
 
-//console.log(student2.myteacher.age); // objects ky ander se object print krwaya hai
+// console.log(student2.myteacher.age); // objects ky ander se object print krwaya hai
 
-//console.log(undefined.age); // undefined me . krky kuxh nikalogy tw error ayega 
-//console.log(student2?.myteacher?.name); // ? error ki jaga undefined show krwa dega
+// console.log(undefined.age); // undefined me . krky kuxh nikalogy tw error ayega 
+// console.log(student2?.myteacher?.name); // ? error ki jaga undefined show krwa dega
 
-
+let a1 = "name";
 let mobile = {
+  name: "shahwaiz",
   ram: 8,
   modal: "A5S",
   company: "Iphone",
@@ -44,11 +45,25 @@ let mobile = {
 
 let a = "company"; 
 //mobile[a] = "Realme" object ki company ko dubara reassign kiya hai
-// console.log(mobile.a); // . se undefined ayega agr key ko object ky bhr kisi variable me store kiya ho tw undefined ayega
-// console.log(mobile[a]); // [] se jo bi key ki value hogi print ho jaegi
+// console.log(mobile.a1); // . se undefined ayega agr key ko object ky bhr kisi variable me store kiya ho tw undefined ayega
+// console.log(mobile[a1]); // [] se jo bi key ki value hogi print ho jaegi
 // console.log(mobile[0]); // looks like array because array is a construct
 
 
+const course = {
+  StudentName: "Syed Shahwaiz Qasim",
+  Institute: "SMIT",
+  fees: 500,
+  Days: "Tuesday, Thursday, Saturday",
+  CourseInstructor: "Shehzad Iqbal",
+  Information: {
+    Institute: "Saylani Mass IT Training Program",
+    Saylani_Goal: "Pakistan",
+  }
+
+}
+// console.log(course.Information.Institute);
+console.log(course.fees);
 
 
 
@@ -97,9 +112,9 @@ tinderUser.id = "123abc";
 tinderUser.name = "Sammy";
 tinderUser.isLoggedIn = false;
 
-console.log(Object.keys(tinderUser)); // ye objects ki key array ki form me print krwata hai
-console.log(Object.values(tinderUser)); // ye objects ki value array ki form me print krwata hai
-console.log(Object.entries(tinderUser)); // ye array ky ander nested array me key or value ko print krwata hai
+// console.log(Object.keys(tinderUser)); // ye objects ki key array ki form me print krwata hai
+// console.log(Object.values(tinderUser)); // ye objects ki value array ki form me print krwata hai
+// console.log(Object.entries(tinderUser)); // ye array ky ander nested array me key or value ko print krwata hai
 
 //console.log(tinderUser);
 
@@ -114,7 +129,7 @@ const regularUser = {
   }
 }
 
-console.log(regularUser.fullName.userfullname.lastName);
+//console.log(regularUser.fullName.userfullname.lastName);
 
 
 const obj1 = {1: "a", 2: "b"};
@@ -146,3 +161,24 @@ const users = [
 //console.log(users[0].id);
 
 
+/* Object DeStructure */
+
+// const course = {
+//   coursename: "js in hindi",
+//   price: "Free",
+//   courseInstructor: "Hitesh",
+// }
+
+//course.courseInstructor 
+
+/* Object De Structure */
+// const {courseInstructor: instructor} = course; // object ky ki key ko aese bhi print krwa sakte hain
+// console.log(instructor);
+
+// [
+//   {},
+//   {},
+//   {},
+// ]
+
+  

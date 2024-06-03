@@ -18,7 +18,7 @@
 //  }
 // }
 
-/*
+
 let myInput = document.querySelector("#my-input");
 //let mybutton = document.querySelector("#my-button");
 let form = document.querySelector("#wheather-form");
@@ -39,7 +39,7 @@ form.addEventListener("submit", (event) => {
     }
 
 });
-*/
+
 
 
 // let username = prompt("Enter Your Field");
@@ -64,22 +64,24 @@ form.addEventListener("submit", (event) => {
 //     console.log(number + " is odd");
 // }
 
+// even number = 2,4,6,8,10
+// odd number = 1,3,5,7,9
 
 /* book practice */
-// let age = 10;
-// let cost = 0; 
-// let message;
-// if (age < 3) {
-//     cost = 0;
-//     message = "Access is free under three."
-// }else if(age >= 3 && age < 12){ // true condition
-//     cost = 5;
-//     message = "With the child discount, the fee is 5 dollars";
-// }else if(age >= 11 && age < 20){
-//     cost = 10;
-//     message = "A regular ticket costs 10 dollars";
-// }else{
-//     cost = 7;
-//     message = "A ticket is 7 dollars.";
-// }
-// console.log(`Message: ${message} Cost: ${cost}`); // string interpulation
+let age = 10;
+let cost = 0; 
+let message;
+if (age < 3) {
+    cost = 0;
+    message = "Access is free under three."
+}else if(age >= 3 && age < 12){ // true condition
+    cost = 5;
+    message = "With the child discount, the fee is 5 dollars";
+}else if(age >= 11 && age < 20){
+    cost = 10;
+    message = "A regular ticket costs 10 dollars";
+}else{
+    cost = 7;
+    message = "A ticket is 7 dollars.";
+}
+ //console.log(`Message: ${message} Cost: ${cost}`); // string interpulation

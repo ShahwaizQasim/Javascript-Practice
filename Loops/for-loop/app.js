@@ -21,8 +21,8 @@
 
 
 /* odd 1,3,5,7 and even 2,4,6,8 */
-//let counter = 15;
-//for (let i= 0; i < 15; i++) {
+// let counter = 15;
+// for (let i= 0; i < 15; i++) {
 // if (i % 2 === 0) { 
 //     console.log("This is Even ", i); // even number print
 // }
@@ -34,15 +34,15 @@
 
 
 /* Reverse Counting Method 1 */
-// for (let i = 10; i > 0; i--) {
-//     document.write(`Reverse Counting ${i} <br/>` );
-// }
+for (let i = 10; i > 0; i--) {
+    document.write(`Reverse Counting ${i} <br/>` );
+}
 
 
 /* Reverse Counting Method 2 */
-// for (let i = 0; i < 10; i++) {
-//     document.write(`${10 - i}  <br/>`);
-// }
+for (let i = 0; i < 10; i++) {
+    document.write(`${10 - i}  <br/>`);
+}
 
 
 // let pets = [];
@@ -67,18 +67,15 @@
 // }
 
 
-let namesArr = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
-for (let i = 0; i < namesArr.length; i++) {
-    if (namesArr[i].startsWith("M")) {
-        delete namesArr[i];
-        continue;
-    }
-}
-// console.log(namesArr);
+// let namesArr = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+// for (let i = 0; i < namesArr.length; i++) {
+//     if (namesArr[i].startsWith("J")) {
+//         delete namesArr[i];
+//         continue;
+//     }
+// }
+//  console.log(namesArr);
 
-
-
-//  Loops Chapter Continue page # 124
 
 
 

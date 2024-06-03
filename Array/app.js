@@ -12,11 +12,11 @@ let colors = ["Red","Brown","Yellow","Gray","White"];
 //colors.shift() //shift start se element remove krta hai
 
 
-//console.log(colors.at(-1)); // prints last value prrint 1st method
+//console.log(colors.at(-1)); // prints last value print 1st method
 //console.log(colors[colors.length -1]); // last value print 2nd method
 
 //console.log(colors.length); // ye array ki length maloom krne ky liye use krte hain
-console.log(colors);
+//console.log(colors);
 
 //console.log(colors[3]);
 
