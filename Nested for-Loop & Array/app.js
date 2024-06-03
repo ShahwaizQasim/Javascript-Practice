@@ -1,3 +1,14 @@
+
+/* Nested Loop */
+
+for (let i = 0; i < 5; i++) {
+  console.log(`Outer Loop is ${i}`);
+  for (let j = 0; j < 3; j++) {
+      console.log(`Outer Loop is ${i} and Inner Loop is ${j}`);
+  }
+}
+
+
 /* Nested Array */
 let array = [
   [5, 2, 3],

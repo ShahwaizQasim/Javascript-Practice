@@ -34,15 +34,15 @@
 
 
 /* Reverse Counting Method 1 */
-for (let i = 10; i > 0; i--) {
-    document.write(`Reverse Counting ${i} <br/>` );
-}
+// for (let i = 10; i > 0; i--) {
+//     document.write(`Reverse Counting ${i} <br/>` );
+// }
 
 
 /* Reverse Counting Method 2 */
-for (let i = 0; i < 10; i++) {
-    document.write(`${10 - i}  <br/>`);
-}
+// for (let i = 0; i < 10; i++) {
+//     document.write(`${10 - i}  <br/>`);
+// }
 
 
 // let pets = [];
@@ -78,4 +78,24 @@ for (let i = 0; i < 10; i++) {
 
 
 
+
+/* break and continue */
+
+// for (let index = 1; index <= 20; index++) {
+//     if (index == 5) {
+//         console.log(`Detected 5`);
+//         break;
+//     }
+//    console.log(`Value of i is ${index}`);
+    
+// }
+
+// for (let index = 1; index <= 20; index++) {
+//     if (index == 5) {
+//         console.log(`Detected 5`);
+//         continue;
+//     }
+//    console.log(`Value of i is ${index}`);
+    
+// }
 
