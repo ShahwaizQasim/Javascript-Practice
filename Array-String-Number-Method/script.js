@@ -134,10 +134,10 @@ const hundreds = 1000000;
 //console.log(hundreds.toLocaleString('en-IN'));
 
 
-// let myText = "Hello My name is Syed Shahwaiz Shah And My father name is Shah ali";
-// let mytxt = myText.replace("Hello","Hi") // replace array me se ak string ko replace krta hai
+let myText = "Hello My name is Syed Shahwaiz Shah And My father name is Shah ali";
+let mytxt = myText.replace("hello","Hi") // replace array me se ak string ko replace krta hai
 // let mytext = mytxt.replaceAll(/Shah/g,"Qasim"); // replaceAll string ya array me se multiple element ko replace kr deta hai
-// console.log(mytext);
+console.log(mytxt);
 
 
 // let str = 'hello world hello world'
@@ -145,7 +145,7 @@ const hundreds = 1000000;
 // document.write(strChange);
 
 let fullName = "Shahwaiz"; // charAt()
-//console.log(fullName.charAt(fullName.charAt())); // jese hum array ki index ko print krwate hai wese chatAt function se hum string me se kisi alphabet ko print krwa sakte hain
+//console.log(fullName.charAt(fullName.charAt())); // jese hum array ki index ko print krwate hai wese chatAt-function se hum string me se kisi alphabet ko print krwa sakte hain
 //console.log(fullName.charAt(fullName.length-1)); // is sy hum string ka last alphabet print krwa sakte hain  
 
 
