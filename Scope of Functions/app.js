@@ -74,7 +74,7 @@ function addone(num){  // is function ko hum is function se pehly bi print karwa
    return num + 1;
 }
 
-
+ 
 // Hoisting
 
 console.log(addTwo(5)); // Error
