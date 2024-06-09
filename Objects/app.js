@@ -28,7 +28,9 @@ let student2 = {
 // console.log(student2.myteacher.age); // objects ky ander se object print krwaya hai
 
 // console.log(undefined.age); // undefined me . krky kuxh nikalogy tw error ayega 
-// console.log(student2?.myteacher?.name); // ? error ki jaga undefined show krwa dega
+// console.log(student2?.myteacher?.name); // ? error ki jaga undefined show krwa dega 
+
+// ? ko optional chaining kehty hain
 
 let a1 = "name";
 let mobile = {
