@@ -77,7 +77,7 @@ let subtraction = (a, b = 1) => {
 /* IIFE = Immediately Invoked Function Expression */
 
 (function () {
-    console.log("hello!");
+    // console.log("hello!");
 })()
 //console.log();
 
@@ -100,13 +100,13 @@ const myArray = [15,20,35,55,77];
 function arrayValuesControl(getArray){
      return getArray[1]; // getArray se hum array ky element ko pakr sakte hain 
 }
-console.log(arrayValuesControl(myArray));
+// console.log(arrayValuesControl(myArray));
 //console.log(arrayValuesControl([200,500,100,3000]));
 
 
 //activity
 const muFun = () => 6 * 4 - 24;
-console.log(muFun() ? "nahi aaya samajh" : "agaya samajh"); // nahi aya samajh
+// console.log(muFun() ? "nahi aaya samajh" : "agaya samajh"); // nahi aya samajh
 
 
 function loginUser(usermessage){
@@ -133,5 +133,13 @@ function myarray(){
     }
     return false;
 }
-console.log(myarray()) ;
+// console.log(myarray()) ;
+
+
+function myFun(...shah){
+    // rest operator
+    console.log("shawaiz");
+    return shah; 
+}
+console.log(myFun("ali", "azain","wasid"));
 

@@ -56,5 +56,8 @@ const age = student[1];
 
 /* DeStructuring */
 const [MyName,Age] = ["shahwaiz",20,"something"] // short way of assigning array value to variable (this is equivalent above code)
-console.log(MyName);
-console.log(Age);
+// console.log(MyName);
+// console.log(Age);
+
+const fruits = ["mango","banana"];
+console.log(...fruits,44,"watermelon");
