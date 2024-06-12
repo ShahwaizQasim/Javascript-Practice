@@ -65,7 +65,7 @@ const course = {
 
 }
 // console.log(course.Information.Institute);
-console.log(course.fees);
+// console.log(course.fees);
 
 
 
@@ -173,9 +173,14 @@ const users = [
 
 //course.courseInstructor 
 
-/* Object De Structure */
+/* Object DeStructuring */
 // const {courseInstructor: instructor} = course; // object ky ki key ko aese bhi print krwa sakte hain
 // console.log(instructor);
+
+
+const {name,age} = {name:"shahwaiz",age:21};
+console.log(name);
+console.log(age);
 
 // [
 //   {},

@@ -22,12 +22,12 @@ let colors = ["Red","Brown","Yellow","Gray","White"];
 
 /* user se input lekr array me add krwane ka method */
 let userName = [];
-let names = prompt("Enter Your Name");
-if (names) {
-    alert("Welcome "+ names)
-}
-userName.push(names);
-console.log(userName);
+// let names = prompt("Enter Your Name");
+// if (names) {
+//     alert("Welcome "+ names)
+// }
+// userName.push(names);
+// console.log(userName);
 
 
 /*array me duplicate element ko value ko dhoonda hai*/
@@ -44,4 +44,17 @@ function myarray(){
     }
     return false;
 }
-console.log(myarray()) ;
+// console.log(myarray()) ;
+
+
+const student = ["student",21];
+const myName = student[0];
+const age = student[1];
+
+// console.log(myName);
+// console.log(student);
+
+/* DeStructuring */
+const [MyName,Age] = ["shahwaiz",20,"something"] // short way of assigning array value to variable (this is equivalent above code)
+console.log(MyName);
+console.log(Age);
