@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Move</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: black;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        img {
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body onmousemove="HandleMyMouseMove(event)">
+    <h2>Mouse Move</h2>
+
+    <img src="./img/download.png" alt="ballon-img" id="img" width="80px">
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
