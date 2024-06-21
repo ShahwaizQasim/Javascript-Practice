@@ -87,6 +87,14 @@ let myStr = "      My Name is shehzad iqbal this can       "
 //let myStr_split = myStr.split(" ") //ye value ko tor deta hai and ye numbers ko split nhi krta
 //let myStr_join = myStr_split.join(" ") //ye value ko join kr deta hai
 
+let nums2 = 123456678;
+// console.log(nums2.split("")); // split numbers ko split nahi karta
+//console.log(nums2.length); // and numbers ki hum length maloom karengy tw undefined ayega 
+
+const myArr = [1,2,3,4,5,6]
+console.log(myArr.length); // ye array ki length hai numbers ki length nahi 
+
+
 let name = "shaHwaIz-ali";
 //console.log(name.toUpperCase()); //ye value ko capital krta hai
 //console.log(name.toLowerCase()); //ye value ko small krta hai
@@ -96,7 +104,7 @@ let final = firstAlpha + baqiAlpha;
 //console.log(final);
 
 let newText = "Hello World";
-console.log(newText.startsWith("W"));
+//console.log(newText.startsWith("W"));
 
 //console.log(final.charAt(3)); // hum index de kr value maloom kr sakte hain  
 
@@ -137,7 +145,7 @@ const hundreds = 1000000;
 let myText = "Hello My name is Syed Shahwaiz Shah And My father name is Shah ali";
 let mytxt = myText.replace("hello","Hi") // replace array me se ak string ko replace krta hai
 // let mytext = mytxt.replaceAll(/Shah/g,"Qasim"); // replaceAll string ya array me se multiple element ko replace kr deta hai
-console.log(mytxt);
+//console.log(mytxt);
 
 
 // let str = 'hello world hello world'

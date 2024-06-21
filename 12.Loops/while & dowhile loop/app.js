@@ -32,7 +32,7 @@ while (arr.length) {
 
 
 /* do While Loop */
-// agr condition false hogi tw do/while loopak bar execute oga 
+// agr condition false hogi tw do/while loop ak bar execute oga 
 
 let name1 = 0;
 do{
@@ -43,14 +43,14 @@ do{
 
 // let bol1 = confirm("Hello");
 
-// let result;
-// do{
-//    let randomNum = Math.floor(Math.random() * 2);
-//    // console.log(randomNum); 
-//    if (randomNum === 0) console.log("You Lose"); 
-//    if (randomNum === 1) console.log("You Win");
-//    let result = confirm("Do You want to play again") 
-// }while (result)
+let result;
+do{
+   let randomNum = Math.floor(Math.random() * 2);
+   // console.log(randomNum); 
+   if (randomNum === 0) console.log("You Lose"); 
+   if (randomNum === 1) console.log("You Win");
+   let result = confirm("Do You want to play again") 
+}while (result)
 
 
 let score = 11;
