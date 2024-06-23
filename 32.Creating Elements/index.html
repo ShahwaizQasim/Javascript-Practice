@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Elements</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <!-- <h2>Creating Elements in Javascript</h2>
+
+    <div id="testing">
+        <p>12:47 <span>PM</span></p>
+        <p>Thursday</p>
+    </div> -->
+    
+
+    <script type="module">
+
+       const body = document.querySelector("body");
+       
+       const h2 = document.createElement("h2");
+       console.log(h2);
+       const h2Test = document.createTextNode("Creating Elements in Javascript");
+       h2.appendChild(h2Test);
+
+       const div = document.createElement("div");
+    //    console.log(div);
+       const para = document.createElement("p");
+    //    console.log(para);
+       const pTest = document.createTextNode("12:47");
+       para.appendChild(pTest);
+       const span = document.createElement("span");
+    //    console.log(span);
+       const spanTest = document.createTextNode("PM");
+       span.appendChild(spanTest);
+       para.appendChild(span)
+       
+       div.appendChild(para);
+
+       const para2 = document.createElement("p");
+       const para2Test = document.createTextNode("Thursday");
+       para2.appendChild(para2Test);
+
+       div.appendChild(para2);
+
+    </script>
+</body>
+</html>
