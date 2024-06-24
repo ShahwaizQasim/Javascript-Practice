@@ -16,14 +16,25 @@
         <p>12:47 <span>PM</span></p>
         <p>Thursday</p>
     </div> -->
+
+
+    <!-- <div class="parent">
+      <div class="child">First Child</div>
+      <div class="child">Second Child</div>
+      <div class="child">Third Child</div>
+    </div> -->
     
 
     <script type="module">
+       
+      /*  html elements creating in javascript */
 
        const body = document.querySelector("body");
+       body.style.backgroundColor = 'black';
+       body.style.color = 'white';
        
        const h2 = document.createElement("h2");
-       console.log(h2);
+      //  console.log(h2);
        const h2Test = document.createTextNode("Creating Elements in Javascript");
        h2.appendChild(h2Test);
 
@@ -46,6 +57,17 @@
        para2.appendChild(para2Test);
 
        div.appendChild(para2);
+
+       body.appendChild(h2);
+       body.appendChild(div);
+
+
+      //  const parent1 = document.querySelector('.parent');
+      //  console.log(parent1.firstElementChild);
+      //  console.log(parent1.lastElementChild);
+
+      // const child = document.querySelector('.child');
+      // console.log(child.parentElement);
 
     </script>
 </body>
