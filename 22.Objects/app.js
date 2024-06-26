@@ -1,6 +1,6 @@
 
 let student1 = ['web','cit','graphics','ali',25,];  // sequential data
-//console.log(student1[1]);
+// console.log(student1[1]);
 
 /* Object Literal non squential data */
 
@@ -174,13 +174,13 @@ const users = [
 //course.courseInstructor 
 
 /* Object DeStructuring */
-// const {courseInstructor: instructor} = course; // object ky ki key ko aese bhi print krwa sakte hain
+// const {courseInstructor: instructor} = course; // object ki key ko aese bhi print krwa sakte hain
 // console.log(instructor);
 
 
 const {name,age} = {name:"shahwaiz",age:21};
-console.log(name);
-console.log(age);
+// console.log(name);
+// console.log(age);
 
 // [
 //   {},

@@ -6,6 +6,11 @@ let balance1; // end me number bi use kar sakte hain
 let $hello; // $ se start bi kr sakte hain
 let _hello;
 
+// variables name 
+let fullName; // camel case
+let full_name; // snake case
+let FullName; // pascal case
+
 //variables
 
 //variables assign kardia
@@ -23,8 +28,11 @@ console.log(city);
 /*
 let variable me ak bar jo variable ko name de dia tw dusri bar let variable me wo name nhi de sakte jo humne pehly variable ko name diya tha
  wana error ayega
-*/
+
+ let ko hum re-decalare nahi kar sakte but update kar sakte hain.
+ */
 let name = "syed shahwaiz";
+// let name = "Qasim Ali" // error
 console.log(name);
 
 /*
@@ -37,8 +45,16 @@ var num = 40;
 }
 console.log(num);
 
+
+/* var problem = var me hum kisi bi variable ko re-decalare kar sakte hain */
+var age = 20;
+var age = 43;
+var age = 20;
+console.log(age);
+
+
 /*
-const ko change nhi kr sakhte
+const ko hum change nhi kr sakhte or na hi update kar sakte hain.
 */
 const pi = 3.142;
 //pi = 1.42 //error
@@ -46,7 +62,7 @@ console.log(pi);
 
 //backtics
 let language = "Javascript";
-let message = `Let's learn ${language}`;
+let message = `Let's learn ${language}`; // backtick = template literals
 console.log(message);
 
 // \n se line chane hoti hai 
