@@ -30,6 +30,7 @@ for (const key of map) { // aese pura map print ho jaega
     console.log(key);
 }
 
+// Array Destructuring
 for (const [key,value] of map) { //aese key or value dono ko alag alag bi print krwa sakte hain
     //console.log(`${key} , ${value}`);
 }
@@ -41,6 +42,6 @@ const obj = {
     game2: "IGI"
 }
 
-for (const oj of obj) {  // for of loop object pr kaam nhi kr raha
+for (const oj of obj) {  // for of loop object pr kaam nhi krta
     console.log(oj, obj[oj]);
 }

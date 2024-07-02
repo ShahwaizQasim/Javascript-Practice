@@ -188,4 +188,14 @@ const {name,age} = {name:"shahwaiz",age:21};
 //   {},
 // ]
 
+
+const myObj = {
+  name:"Shehzad",
+  age:20,
+  smit:"saylani",
+  hobbies:["cricket","coding","eating"],
+  myBoolean:false
+}
   
+const myKey1 = "hobbies";
+console.log(myObj[myKey1]); // array will be printed in object

@@ -14,7 +14,8 @@ for (const key in myObj) {  // forin loop Object pr kaam kr raha hai and forof l
 const programming = ["js","py","php","c"];
 // console.log(programming[0]);
 for (const key in programming) {
-    //console.log(programming[key]);
+    // console.log(key); // forin me aese array ki key ayengi
+    //console.log(programming[key]); forin loop me aese array ki value print krwate hain
 }
 
 // const map = new Map();
