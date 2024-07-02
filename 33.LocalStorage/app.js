@@ -20,12 +20,12 @@
 
 
 /* 1 = storing mode preference in local storage */
-const userMode = localStorage.getItem("mode");
+// const userMode = localStorage.getItem("mode");
 
-if (!userMode) { 
-    const mode = prompt("Enter Your Mode Preference?")
-    localStorage.setItem("mode", mode)
-} 
+// if (!userMode) { 
+//     const mode = prompt("Enter Your Mode Preference?")
+//     localStorage.setItem("mode", mode)
+// } 
     // localStorage.setItem("Name", "ali");
 
 // console.log(userMode);
@@ -34,9 +34,16 @@ if (!userMode) {
 // 2 
 const obj = {
     name: "Shahwaiz",
-    age: 20
+    age: 20,
+    Institute: "SMIT",
+    Sports:"Cricket"
 }
+// delete obj.Sports; // delete objects key & value 
+// console.log(obj);
 
 localStorage.setItem("myObj", JSON.stringify(obj)); // JSON.stringify object ko string banata hai
-console.log(localStorage.getItem("myObj")); // string
-console.log(JSON.parse(localStorage.getItem("myObj")));
+
+const storeObject = JSON.parse(localStorage.getItem("myObj"));
+delete storeObject.Institute; // local storage me se object ki key ko delete kiye hai 
+
+const updateObject = localStorage.setItem("myObj", JSON.stringify(storeObject));
