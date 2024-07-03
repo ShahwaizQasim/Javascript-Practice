@@ -85,3 +85,30 @@ if (age < 3) {
     message = "A ticket is 7 dollars.";
 }
  //console.log(`Message: ${message} Cost: ${cost}`); // string interpulation
+
+
+// Let's Practice 
+
+//  const userInput = prompt("Enter Your Number");
+//  if (!Number(userInput)) {
+//     alert("String Not Allow");
+//  }
+//  if (userInput % 5 === 0) {
+//     console.log(`${userInput} is multiple of 5`);        
+// }else{
+//     console.log(`${userInput} is not multiple of 5`);        
+// }
+
+
+const score = 85;
+let grade;
+
+if (score >= 80 && score <= 100) {
+    console.log(`Your Grade is A+`);
+}else if(score >= 70 && score <= 79){
+    console.log('Your Grade is A');
+}else if(score >= 60 && score <= 69){
+    console.log('Your Grade is B');
+}else{
+    console.log('You are Fail');
+}
