@@ -198,4 +198,35 @@ const myObj = {
 }
   
 const myKey1 = "hobbies";
-console.log(myObj[myKey1]); // array will be printed in object
+//console.log(myObj[myKey1]); // array will be printed in object
+
+
+/* Objects Values Print Using Forin Loop */
+const myObj2 = {
+  name: "Shahwaiz",
+  age: 19.,
+  Institue: "SMIT",
+  trainer: "Shehzad Iqbal"
+}
+
+// for (const key in myObj2) {
+//   console.log(`${key}: ${myObj2[key]}`);
+// }
+
+
+/* Object Values Print Using for loop */
+const myObj3 = {
+  Name: "Syed Shahwaiz",
+  age: 10,
+  Institute: "SMIT",
+  Trainer: "Sir Shehzad",
+  Campus: "HO"
+}
+
+const keys = Object.keys(myObj3);
+
+for (let i = 0; i < keys.length; i++) {
+ const Objkeys = keys[i];
+  console.log(`${Objkeys}: ${myObj3[Objkeys]}`);
+}
+
