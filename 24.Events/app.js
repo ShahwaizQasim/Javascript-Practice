@@ -56,6 +56,49 @@
 // })
 
 
-function popup(message){
+window.popup = (message) => {
     alert(message);
 }
+
+// const uoo = Number("222");
+// console.log(String(uoo));
+
+window.GreetUser = (UserMessage) => {
+    const Inpt = prompt("Enter User Name");
+    if (Number(Inpt)) {
+        console.log("Number not Allow");
+    }else{
+        console.log(Inpt);
+    }
+    return Inpt;
+}
+
+
+window.checkAddress = () => {
+    const userInpt = document.querySelector('#email').value;
+
+    if (userInpt === "") {
+        alert("Email address required.");
+    }
+    console.log(userInpt);
+}
+
+function fillCity() {
+  let cityName;
+  let zipEntered = document.getElementById("zip").value;
+
+  switch (zipEntered) {
+  case "74900" :
+  cityName = "Karachi";
+  break;
+
+  case "6805" :
+  cityName = "Lahore";
+  break;
+
+  case "5321" :
+  cityName = "Islamabad";
+}
+    document.getElementById("city").value = cityName;
+}
+    
