@@ -189,5 +189,9 @@ let fullName = "Shahwaiz"; // charAt()
 // console.log(Math.floor(Math.random() * (max - min + 1) + min));
 
 
+// pracice username 
+let userFullName = prompt("Enter your Full Name");
+let userName = `@${userFullName}${userFullName.length}`;
+console.log(userName);
 
   
