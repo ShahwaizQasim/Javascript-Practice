@@ -61,3 +61,32 @@ const [MyName,Age] = ["shahwaiz",20,"something"] // short way of assigning array
 
 const fruits = ["mango","banana"];
 console.log(...fruits,44,"watermelon");
+
+
+// array ky elements ko sum kiya hai and me in values ka average bi nikala hai   
+let Arr2 = [2,4,6,8,10];
+let sum = 0;
+for (const items of Arr2) {
+    sum += items;
+}
+let avg = sum / Arr2.length;
+console.log(`avg mark of the class ${avg}`);
+
+
+
+// array ki har element se 10% ko minus kiya hai
+let myArray = [150,250,320,480,333]; // for of loop
+let i = 0;
+// for (const val of myArray) {
+//     let offer = val / 10;
+//     myArray[i] = myArray[i] - offer;
+//     console.log(i, myArray[i]);
+//     i++;
+// }
+
+
+for (let i = 0; i < myArray.length; i++) {
+    let offer = myArray[i] / 10;
+    myArray[i] -= offer;
+    console.log(myArray[i]);
+}
