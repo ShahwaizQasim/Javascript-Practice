@@ -90,3 +90,24 @@ for (let i = 0; i < myArray.length; i++) {
     myArray[i] -= offer;
     console.log(myArray[i]);
 }
+
+
+
+/* Sorting Numbers */ 
+const myArr3 = [4,2,5,1000,-10,-4,1];
+
+const sortFunction = (a, b ) => {
+    // console.log("sortFunction a:", a);
+    // console.log("sortFunction b:", b);
+
+    const test = a - b;
+
+    return test;
+}
+// myArr3.sort(sortFunction);
+// console.log(myArr3);
+
+myArr3.sort((a,b) => b - a); // descending order = largest to small 9 to 0 
+myArr3.sort((a,b) => a - b); // ascending order = smallest to largest, 0 to 9
+// console.log(myArr3);
+console.log(myArr3);
