@@ -3,7 +3,7 @@
 
 let Arr = [1,2,3,4,5,6,7,8,9,10]; // original array change nhi hota \
 
- // filter ky ander jo callback hota hai wo do value hi return karta hai true/false jis bi value ky liye true return hoga wo new array ky ander ho jaegi
+ // filter ky ander jo callback hota hai wo do value hi return karta hai true/false jis bi value ky liye true return hoga wo new array ky ander ho jaega
 const EvenNumber = Arr.filter ((nums1) => {
     return nums1 % 2 !== 0;
 })
@@ -52,7 +52,7 @@ if (!Number(n)) {  // agr number nahi hon tw alert chal jaega
     alert("String Not Allow");
 }else{
 
-let arr = []; // user jo number input karega wo array me push ho jaenga
+let arr = []; // user jo number input karega wo array me push ho jaega
 for (let i = 1; i <= n; i++) {
     arr[i-1] = i; //1(0), 2(1), 3(2), 4(3) // is tariqa se numbers ayengy loop me or hr number me se 1 ko minus krwa diya
 }
