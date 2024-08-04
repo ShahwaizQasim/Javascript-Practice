@@ -9,7 +9,7 @@ const functionApi = async (event) => {
   try {
     event.preventDefault();
 
-    let API_URL = "https://api.github.com/users/shehza-1d";
+    let API_URL = "https://api.github.com/users/shehza-d";
     const res = await fetch(API_URL);
     const data = await res.json();
 
@@ -23,3 +23,16 @@ const functionApi = async (event) => {
 
 document.getElementById("check").addEventListener("click", functionApi);
 // console.log(await api.json());
+
+const API_URL1 = "https://api.github.com/users/shehza-2d";
+fetch(API_URL1)
+  .then((result) => {
+    // console.log(result);
+    return result.json();
+  })
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.log(error.message);
+  });
