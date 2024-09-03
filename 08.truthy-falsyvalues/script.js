@@ -12,7 +12,7 @@
 
 
 //array
-const myarray = [1,"hello",false];
+const myArray = [1,"hello",false];
 
 //object
 const myobject = {
@@ -53,6 +53,7 @@ let myFunction = function(){
 
 
 //&& Operator
+
 /* && operator me ak bi value false tw condition false */
 
 //console.log(false && true); // false

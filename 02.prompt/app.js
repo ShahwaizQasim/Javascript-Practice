@@ -28,7 +28,7 @@ console.log("Division : " + divide);
 
 
 /* hum prompt ky input me value bi show kr sakte hain */
-// let num1 = prompt("First Value",'shahwaiz');
+let num4 = prompt("First Value",'shahwaiz');
 
 // agar variable me kuch define nhi hoga tw undefine store hoga
 let shahwaiz;  //undefined

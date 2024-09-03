@@ -24,6 +24,34 @@ b = temporary;
 //console.log(`a = ${a} b = ${b}`);
 
 
+// console.log(`a = ${a} b = ${b}`);
 
 
-console.log(`a = ${a} b = ${b}`);
+// practice  
+// swaping
+
+let one = 2;
+let two = 4;
+
+// 1st 
+
+// temporary1 = one;
+// one = two;
+// two = temporary1;
+
+
+// 2nd
+
+// one = one + two; //6
+// two = one - two; // 2
+// one = one - two // 4
+
+
+// 3rd 
+
+[one,two] = [two,one]
+
+
+console.log(`one = ${one} two = ${two}`);
+
+

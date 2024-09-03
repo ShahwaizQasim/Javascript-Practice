@@ -4,11 +4,13 @@
 let name = "Shahwaiz";
 let name2 = "Shahwaiz"
 name2 = Number(name2);
-console.log(name2); //NaN
+// console.log(name2); //NaN
+console.log(name===name2);
 
-let name3 = ""
+let name3 = "";
+// console.log(name3);
 
-//console.log(name===name2);
+
 
 //number
 let age = 20;
@@ -38,19 +40,20 @@ let number = 2775446789000875335763n;
 /*Difference Symbol & String*/
 let str1 = "Shahwaiz";
 let str2 = "Shahwaiz";
-//console.log("These two string value are the same:" , str1 === str2);
+// console.log("These two string value are the same:" , str1 === str2);
 
 let sym1 = Symbol("Javascript is sum"); 
-let sym2 = Symbol("Javascript is sum"); 
-//console.log("These two symbol value are the same:" , sym1 === sym2);
+let sym2 = Symbol("Javascript is sum");
+
+console.log("These two symbol value are the same:" , sym1 === sym2);
 
 /*Difference Undefined & Null*/
 let pr1 = undefined;
 let pr2;
-//console.log("Same Undefined:", pr1 === pr2);
+// console.log("Same Undefined:", pr1 === pr2);
 
 let emp1 = null;
-//console.log("Same Null:",pr2 === emp1);
+// console.log("Same Null:",pr2 === emp1);
 
 
 /*

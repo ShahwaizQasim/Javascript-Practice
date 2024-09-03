@@ -1,23 +1,23 @@
 
-// let user = Number(prompt("Wheather Check"));
-// console.log(user)
+let user = Number(prompt("Weather Check"));
 
-// let condition = String(user) === "NaN"
-// console.log(condition);
+let condition2 = String(user) === "NaN";
+console.log('condition2', condition2);
+
 
 /* agar condition true hogi tw if chalega warna else chal jaega */
-// if(condition){
-//     alert("Allow Only Number");
-// }else{
-// if (user < 20) {
-//     alert("Today wheather is Cold 😱😱")
-//  }
- // warna
-//  else{
-//    alert("Today wheater is Hot 😨😨")
-//  }
-// }
-
+if(condition2){
+    alert("Allow Only Number");
+}else{
+if (user < 20) {
+    // alert("Today wheather is Cold 😱😱")
+    console.log("Today wheather is Cold 😱😱");
+ }
+ else{
+//    alert("Today wheater is Hot 😨😨");
+   console.log("Today wheather is Hot 😱😱");
+ }
+}
 
 let myInput = document.querySelector("#my-input");
 //let mybutton = document.querySelector("#my-button");

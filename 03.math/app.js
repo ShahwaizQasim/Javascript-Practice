@@ -36,17 +36,18 @@ age = 20; //age variable ko reassign krdia
 
 let x = 1;
 let y = 2;
-//console.log(!(x < y));
+// console.log(!(x > y));
 
 let x1 = false;
-//console.log(!x1);
+// console.log(!x1);
 
 let result = 3 + 4 * (8 / 8);
-//console.log(result);
+console.log(result);
 
 const arr = ["hi there"];
-// arr[0] = "new value";
-console.log(arr[0]);
+// arr = ["new value"]; // error
+arr[0] = "Hi Syed";
+console.log(arr);
 
 
  /* 
@@ -56,8 +57,8 @@ console.log(arr[0]);
  let nm1 = 15;
  let nm2 = 4;
  let res = nm1 % nm2;
- //console.log("Modulus: " + res);// 3
- //console.log(`${nm1} % ${nm2} = ${res}`); // backticks
+//  console.log("Modulus: " + res);// 3
+//  console.log(`${nm1} % ${nm2} = ${res}`); // backticks
 
 
 //Examle
@@ -71,14 +72,21 @@ console.log(arr[0]);
  let total_number = 1100;
  let obtain_marks = 980;
  let percentage = (obtain_marks / total_number) * 100 ;
- //console.log("Percentage: ", percentage);
+//  console.log("Percentage: ", percentage);
+
+
+// let total_number = prompt("Total Number");
+// let obtain_marks = prompt("Obtain Marks");
+// let percentage = (obtain_marks/total_number) * 100;
+// console.log('percentage', percentage);
+ 
 
 
  /* salary increase karne ka tariqa */
- let salary =  20000;
- salary = salary + (salary/100) * 50; // salary 50% increse ki hai
- //salary += (salary/100) * 50; both are some
- //console.log(salary);
+ let salary =  25000;
+//  salary = salary + (salary/100) * 50; // salary 50% increse ki hai
+ salary += (salary/100) * 50; // both are some
+ console.log(salary);
 
 //  Even Number: 2,4,6,8,10
 //  Odd Numbers: 1,3,5,7,9

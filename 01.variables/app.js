@@ -22,26 +22,28 @@ var city = "Karachi";
 // id = 8675 //not allow
 country = "India"
 city = "Lahore";
-console.log(city);
+// console.log(city);
 
 
 /*
-let variable me ak bar jo variable ko name de dia tw dusri bar let variable me wo name nhi de sakte jo humne pehly variable ko name diya tha
- wana error ayega
-
  let ko hum re-decalare nahi kar sakte but update kar sakte hain.
  */
 let name = "syed shahwaiz";
+name = 'Qasim Ali';
 // let name = "Qasim Ali" // error
-console.log(name);
+// console.log(name);
 
 /*
 var variable hum use nhi krte because var variable ko jub hum name dete hain agr phr se variable ko wohi name dengy tw pehly wali 
 variable ki value change ho jaegi or bad waly variable ki value print ho jaegi
+
+var variable ko hum reassign kar sakte hain
 */
 var num = 40;
 {
   var num = 20;
+  console.log(num);
+  
 }
 console.log(num);
 
@@ -49,7 +51,7 @@ console.log(num);
 /* var problem = var me hum kisi bi variable ko re-decalare kar sakte hain */
 var age = 20;
 var age = 43;
-var age = 20;
+var age = 22;
 console.log(age);
 
 
