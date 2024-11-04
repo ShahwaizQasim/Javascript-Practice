@@ -32,17 +32,15 @@ let nums = [1,2,3,4,5,6,7,8,9];
 //console.log(myArray[12]);
 //console.log(nums[13]);
 
-//console.log(myArray.join('-')); //ye array ki value ko join krta hai
+// console.log(myArray.join('-')); //ye array ki value ko join krta hai
 
-//console.log(myArray.reverse()); // reverse value ko ulta krta hai
-//console.log(nums.reverse()); // reverse number ko ulta krta hai
+// console.log(myArray.reverse()); // reverse value ko ulta krta hai
+// console.log(nums.reverse()); // reverse number ko ulta krta hai
 
-//console.log(nums.length); // length array ki lenth batata hai but number ki length nhi batata
+// console.log('nums',nums.length); // length array ki lenth batata hai but number ki length nhi batata
 
 //console.log(myArray.sort()); // sort value ko alphabet ky sequence se likhta hai
 //console.log(nums.sort()); // sort value ko alphabet ky sequence se likhta hai
-
-//console.log(nums.sort(a,b) => a - b);
 
 // console.log(myArray.includes("Ali")); // includes array me elements ko search krta hai agr elements array mil jae tw true return krta hai 
 
