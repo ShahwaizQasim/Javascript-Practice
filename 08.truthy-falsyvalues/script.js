@@ -38,18 +38,18 @@ let myFunction = function(){
 //console.log( false || false); //false
 //console.log( true || false); //true
 
-// let test1 = false || true || false;
+let test1 = false || true || false;
 // console.log(test1);
 
-// let food = true;
-// let tea = false;
-// let drink = false;
+let food = true;
+let tea = false;
+let drink = false;
 
-// if (food || tea || drink) {
-//     console.log("le aao");
-//   } else {
-//     console.log("ghar jao");
-//   }
+if (food || tea || drink) {
+    // console.log("le aao");
+  } else {
+    // console.log("ghar jao");
+  }
 
 
 //&& Operator
@@ -59,23 +59,23 @@ let myFunction = function(){
 //console.log(false && true); // false
 //console.log(true && true); // true
 
-// let x = 1;
-// let y = 2;
-// let z = 3;
+let x = 1;
+let y = 2;
+let z = 3;
 
 // if (x < y > z) {
 // }
 // console.log(x < y && y < z && x == 1); //true
 
-// let isEnroll = true;
-// let passed = true;
-// let age = 20;
+let isEnroll = true;
+let passed = true;
+let age = 20;
 
-// if (isEnroll && passed && age > 18) {
-//   console.log("Pharai karo class ma");
-// } else {
-//   console.log("ghar jao");
-// }
+if (isEnroll && passed && age > 18) {
+  console.log("Pharai karo class ma");
+} else {
+  console.log("ghar jao");
+}
 
 
 // aakhir me truthy value return kare ga

@@ -73,11 +73,11 @@ let num2 = 10;
 //console.log(true && true); // true
 
 //Example
-// if (num2 > num1 && num1 < num2) {
+if (num2 > num1 && num1 < num2) {
 //     console.log(true);
-// }else{
+}else{
 //     console.log(false);
-// }
+}
 
 
 // aakhir me truthy value return kare ga
