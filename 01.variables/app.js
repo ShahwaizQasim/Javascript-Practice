@@ -6,7 +6,7 @@ let balance1; // end me number bi use kar sakte hain
 let $hello; // $ se start bi kr sakte hain
 let _hello;
 
-// variables name 
+// variables name
 let fullName; // camel case
 let full_name; // snake case
 let FullName; // pascal case
@@ -20,16 +20,15 @@ var city = "Karachi";
 
 //variables ko reassign krdia
 // id = 8675 //not allow
-country = "India"
+country = "India";
 city = "Lahore";
 // console.log(city);
-
 
 /*
  let ko hum re-decalare nahi kar sakte but update kar sakte hain.
  */
 let name = "syed shahwaiz";
-name = 'Qasim Ali';
+name = "Qasim Ali";
 // let name = "Qasim Ali" // error
 // console.log(name);
 
@@ -43,17 +42,14 @@ var num = 40;
 {
   var num = 20;
   console.log(num);
-  
 }
 console.log(num);
-
 
 /* var problem = var me hum kisi bi variable ko re-decalare kar sakte hain */
 var age = 20;
 var age = 43;
 var age = 22;
 console.log(age);
-
 
 /*
 const ko hum change nhi kr sakhte or na hi update kar sakte hain.
@@ -67,6 +63,6 @@ let language = "Javascript";
 let message = `Let's learn ${language}`; // backtick = template literals
 console.log(message);
 
-// \n se line chane hoti hai 
-let counting = " Shahwaiz \n Qasim" ;
-console.log(counting); 
+// \n se line chane hoti hai
+let counting = " Shahwaiz \n Qasim";
+console.log(counting);

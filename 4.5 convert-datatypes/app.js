@@ -2,15 +2,15 @@
 
 let name = "3.922"
 // name = Number(name); // 1st method
-// name = parseInt(name); // 2nd method pareseInt me point ky bad wali ko configure nhi krta
+// name = parseInt(name); // 2nd method pareseInt me point ky bad wali value ko configure nhi krta
 // name = parseFloat(name); // 3rd method
 name = +name; // 4th method
 console.log(name, typeof name);
 
 /*
  "12345" => 12345
- 33abc => Nan
- shahwaiz => Nan
+ 33abc => NaN
+ shahwaiz => NaN
 */
 
 
@@ -25,9 +25,9 @@ number = String(number);
 
 /* number convert to boolean */
 
-let someNumber = 2;
+let someNumber = 0;
 let boolean_someNumber = Boolean(someNumber);
-// console.log('Boolean Number', boolean_someNumber); 
+console.log('Boolean Number', boolean_someNumber); 
 
 /* 
 1 => true , 0 => false

@@ -2,15 +2,13 @@
 
 //string
 let name = "Shahwaiz";
-let name2 = "Shahwaiz"
+let name2 = "Shahwaiz";
 name2 = Number(name2);
 // console.log(name2); //NaN
-console.log(name===name2);
+console.log(name === name2);
 
 let name3 = "";
 // console.log(name3);
-
-
 
 //number
 let age = 20;
@@ -40,12 +38,12 @@ let number = 2775446789000875335763n;
 /*Difference Symbol & String*/
 let str1 = "Shahwaiz";
 let str2 = "Shahwaiz";
-// console.log("These two string value are the same:" , str1 === str2);
+console.log("These two string value are the same:", str1 === str2);
 
-let sym1 = Symbol("Javascript is sum"); 
-let sym2 = Symbol("Javascript is sum");
+let sym1 = Symbol(true);
+let sym2 = Symbol(true);
 
-console.log("These two symbol value are the same:" , sym1 === sym2);
+console.log("These two symbol value are the same:", sym1 === sym2);
 
 /*Difference Undefined & Null*/
 let pr1 = undefined;
@@ -55,12 +53,10 @@ let pr2;
 let emp1 = null;
 // console.log("Same Null:",pr2 === emp1);
 
-
 /*
 variable ki data type check krne ky liye hum typeof ka use krte hain
 */
 //console.log( typeof test);
-
 
 /*Seven Data-Types in Javascript
 string = " "
@@ -70,4 +66,4 @@ undefined =
 null = object standalone value
 symbol = Symbol("sha")
 bigint = BigInt(268890091982q91)
-*/ 
+*/
