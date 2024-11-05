@@ -2,8 +2,8 @@
 
 /* while loop 1 to 10 counting print */
 let i = 1; // initialization
-while (i <= 10) { // condition
-   // console.log(i); // code
+while (11 <= 10) { // condition
+   console.log(i); // code
    i++; // incrementation 
 }
 
@@ -32,13 +32,13 @@ while (arr.length) {
 
 // practice
 let gameNum = 25;
-// let UserInp = prompt("Guess the game number");
-// if (!Number(UserInp)) {
-//    alert("String Not Allow");
-// }
-// while (Number(UserInp) !== gameNum) {
-//    // UserInp = prompt("You entered wrong number. Guess Again :");
-// }
+let UserInp = prompt("Guess the game number");
+if (!Number(UserInp)) {
+   // alert("String Not Allow");
+}
+while (Number(UserInp) !== gameNum) {
+   // UserInp = prompt("You entered wrong number. Guess Again :");
+}
 // console.log("Congratulations, you enter the right number");
 
 
@@ -63,14 +63,14 @@ do{
 
 // let bol1 = confirm("Hello");
 
-// let result;
-// do{
-//    let randomNum = Math.floor(Math.random() * 2);
-//    // console.log(randomNum); 
-//    if (randomNum === 0) console.log("You Lose"); 
-//    if (randomNum === 1) console.log("You Win");
-//    let result = confirm("Do You want to play again") 
-// }while (result)
+let result;
+do{
+   let randomNum = Math.floor(Math.random() * 2);
+   // console.log(randomNum); 
+   if (randomNum === 0) console.log("You Lose"); 
+   if (randomNum === 1) console.log("You Win");
+   let result = confirm("Do You want to play again") 
+}while (result)
 
 
 let score = 11;

@@ -44,27 +44,27 @@ let nums = [1,2,3,4,5,6,7,8,9];
 
 // console.log(myArray.includes("Ali")); // includes array me elements ko search krta hai agr elements array mil jae tw true return krta hai 
 
-//let returnvalue1 = myArray.indexOf("Ali") // ye array ki index maloom krne ky liye use hota hai
-//let returnvalue2 = myArray.lastIndexOf("Ali"); // ye array ki last-index maloom krne ky liye use hota hai
-//let returnvalue3 = nums.indexOf(9)
+let returnvalue1 = myArray.indexOf("Ali") // ye array ki index maloom krne ky liye use hota hai
+let returnvalue2 = myArray.lastIndexOf("Ali"); // ye array ki last-index maloom krne ky liye use hota hai
+let returnvalue3 = nums.indexOf(9)
 //console.log(returnvalue2);
 
 //let fruits = ["Banana","Orange","Apple","Peache"];
 //console.log(fruits.slice(0,3)); // zero se 2 tak slice jese 0 se 3 tak diya hai ye 3 ko count nhi krta sirf 2 tak print hoga
 
 /* Slice for example */
-// let userInput = prompt("Enter a month");
-// let userMonthLength = userInput.length;
-// if (userMonthLength > 3 ) {
-//     userInput = userInput.slice(0,3)
-// }
+let userInput = prompt("Enter a month");
+let userMonthLength = userInput.length;
+if (userMonthLength > 3 ) {
+    userInput = userInput.slice(0,3)
+}
 // console.log(userInput);
 
 
  let months = ['Jan','March','April','June']
-//  months.splice(1,0,"Feb");  //splice me hum value remove bi kr sakte hain or add bi kr sakte hain 
-//  months.splice(4,0,"May"); 
-//months.splice(3,1)
+ months.splice(1,0,"Feb");  //splice me hum value remove bi kr sakte hain or add bi kr sakte hain 
+ months.splice(4,0,"May"); 
+ months.splice(3,1)
 //console.log(months);
 
 let p = "A man, a plan, a canal: Panama";
