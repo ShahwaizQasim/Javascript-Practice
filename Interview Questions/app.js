@@ -62,15 +62,15 @@ console.log("ReversedArray", reversedArray(reverseArr));
 // first-Method
 function printName(times) {
     if (times > 0) {
-        console.log("Shahwaiz");
+        //     console.log("Shahwaiz");
         printName(times - 1); // Recursive call
-    } 
+    }
 }
 
 printName(10);
 
 // second-Method
-console.log(Array(10).fill("Shahwaiz").join("\n"));
+// console.log(Array(10).fill("Shahwaiz").join("\n"));
 
 
 // third method 
@@ -78,13 +78,10 @@ let count = 0;
 
 function printShahwaiz() {
     if (count <= 10) {
-        console.log("Shahwaiz");
+        // console.log("Shahwaiz");
         count++;
         setTimeout(printShahwaiz, 0); // Call function again asynchronously
     }
 }
 
 printShahwaiz();
-
-
-
