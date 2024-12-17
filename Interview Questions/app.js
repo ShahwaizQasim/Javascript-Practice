@@ -62,7 +62,7 @@ console.log("ReversedArray", reversedArray(reverseArr));
 // first-Method
 function printName(times) {
     if (times > 0) {
-        //     console.log("Shahwaiz");
+        console.log("Shahwaiz");
         printName(times - 1); // Recursive call
     }
 }
@@ -75,28 +75,36 @@ printName(10);
 
 // third method 
 let count = 0;
-
 function printShahwaiz() {
     if (count <= 10) {
-        // console.log("Shahwaiz");
+        console.log("Shahwaiz");
         count++;
         setTimeout(printShahwaiz, 0); // Call function again asynchronously
     }
 }
-
 printShahwaiz();
 
-
 // Q5
-// without buil-in function string ko reverse karwaya hai 
-const reverseString = (str) => {
-    let emptyString = "";
-      for (let i = str.length - 1; i >= 0 ; i--) {
-        emptyString += str[i]
-      }    
-    return emptyString; 
-  }
-  
-  console.log(reverseString('Shahwaiz'));
-  
-  
+// ak string lo usko reverse karna hai without built-in function it's mean reverse use nahi karna
+
+function ReverseString(str) {
+    let stringReverse = '';
+    for (let i = str.length - 1; i >= 0; i--) {
+        stringReverse += str[i];
+    }
+    return stringReverse;
+}
+
+// console.log('String Reverse', ReverseString("level"));
+
+
+// Q6
+// palindrome value check ki hai 
+function checkPalindrome(str) {
+    let stringCheck = str;
+    let stringReverse = str.split("").reverse().join("");
+    let result = stringCheck == stringReverse;
+    return result;
+}
+
+console.log("checkPalindrome", checkPalindrome("LEVEL"));
