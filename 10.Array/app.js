@@ -15,15 +15,15 @@ colors.push("Black"); // push end me value add krta hai
 //colors.shift() //shift start se element remove krta hai
 
 /* user se input lekr array me add krwane ka method */
-let userName = [];
-let names = prompt("Enter Your Name");
-if (names) {
-  alert("Welcome " + names);
-}
-userName.push(names);
-console.log(userName);
+// let userName = [];
+// let names = prompt("Enter Your Name");
+// if (names) {
+//   alert("Welcome " + names);
+// }
+// userName.push(names);
+// console.log(userName);
 
-/*array me duplicate element ko value ko dhoonda hai*/
+/*array me duplicate number ko dhunda hai*/
 let array = [1, 2, 3, 4, 5, 1];
 
 function myarray() {
@@ -32,12 +32,12 @@ function myarray() {
     //console.log(array[i]);
     if (array[i] === array[i + 1]) {
       // console.log("hello");
-      return true;
+      return array[i];
     }
   }
   return false;
 }
-// console.log(myarray()) ;
+// console.log("Array Duplicate", myarray()) ;
 
 const student = ["student", 21];
 const myName = student[0];
@@ -61,10 +61,11 @@ let sum = 0;
 for (const items of Arr2) {
   sum += items;
   // console.log('items',items);
-  // console.log('sum',sum);
 }
+// console.log('sum',sum);
+
 let avg = sum / Arr2.length;
-console.log(`avg mark of the class ${avg}`);
+// console.log(`avg mark of the class ${avg}`);
 
 // array ki har element se 10% ko minus kiya hai
 let myArray = [150, 250, 320, 480, 333]; // for of loop
@@ -74,18 +75,18 @@ let i = 0;
 for (const val of myArray) {
     let offer = val / 10;
     myArray[i] = myArray[i] - offer;
-    console.log('Array', i, myArray[i]);
+    // console.log('Array', i, myArray[i]);
     i++;
 }
-console.log('i', i);
+// console.log('i', i);
 
 
 // 2nd method
-// for (let i = 0; i < myArray.length; i++) {
-//   let offer = myArray[i] / 10;
-//   myArray[i] -= offer;
-//   console.log(myArray[i]);
-// }
+for (let i = 0; i < myArray.length; i++) {
+  let offer = myArray[i] / 10;
+  myArray[i] -= offer;
+  // console.log(myArray[i]);
+}
 
 /* Sorting Numbers */
 const myArr3 = [4, 2, 5, 1000, -10, -4, 1];
@@ -98,8 +99,8 @@ const sortFunction = (a, b ) => {
 
     return test;
 }
-myArr3.sort(sortFunction);
-console.log('Arr',myArr3);
+// myArr3.sort(sortFunction);
+// console.log('Arr',myArr3);
 
 // myArr3.sort((a, b) => b - a); // descending order = largest to small 9 to 0
 // console.log(myArr3);

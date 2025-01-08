@@ -21,7 +21,7 @@ let b = 20;
 // third
 
 [a, b] = [b, a]
-console.log(`a = ${a} and b ${b}`);
+// console.log(`a = ${a} and b ${b}`);
 
 
 // Question 2
@@ -53,7 +53,7 @@ const reversedArray = (arr) => {
 }
 
 const reverseArr = ["ahsan", "qasim", "junaid", "talha"];
-console.log("ReversedArray", reversedArray(reverseArr));
+// console.log("ReversedArray", reversedArray(reverseArr));
 
 
 // Q4)
@@ -82,7 +82,7 @@ function printShahwaiz() {
         setTimeout(printShahwaiz, 0); // Call function again asynchronously
     }
 }
-printShahwaiz();
+// printShahwaiz();
 
 // Q5
 // ak string lo usko reverse karna hai without built-in function it's mean reverse use nahi karna
@@ -107,4 +107,4 @@ function checkPalindrome(str) {
     return result;
 }
 
-console.log("checkPalindrome", checkPalindrome("LEVEL"));
+// console.log("checkPalindrome", checkPalindrome("LEVEL"));
