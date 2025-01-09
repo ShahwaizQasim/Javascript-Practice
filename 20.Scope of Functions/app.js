@@ -17,12 +17,12 @@ if (true) {
  tw error ayega */
 // easy words = let & const scopes ky ander banaega tw ye scopes kay bhr nhi milengy
 
-// var c = 80; // var hamy scopes kay under bi milega or bhr bi
-// if (true) {
-//     let a = 20;   / let => bahar wali chez andar mile gyi andar wali bahar nhi mile gyi
-//     const b = 40;
-//     var c = 60; // chahy var scopes ky ander ho ya bhr ye var mil jata hai 
-// }
+var c = 80; // var hamy scopes kay under bi milega or bhr bi
+if (true) {
+    let a = 20;   // let => bahar wali chez andar mile gyi andar wali bahar nhi mile gyi
+    const b = 40;
+    var c = 60; // chahy var scopes ky ander ho ya bhr ye var mil jata hai 
+}
 // console.log(a);
 // console.log(b);
 // console.log(c); // var scopes wali value print hogi
