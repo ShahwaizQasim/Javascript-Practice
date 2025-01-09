@@ -73,10 +73,10 @@ let i = 0;
 
 // 1st method
 for (const val of myArray) {
-    let offer = val / 10;
-    myArray[i] = myArray[i] - offer;
-    // console.log('Array', i, myArray[i]);
-    i++;
+  let offer = val / 10;
+  myArray[i] = myArray[i] - offer;
+  // console.log('Array', i, myArray[i]);
+  i++;
 }
 // console.log('i', i);
 
@@ -91,19 +91,19 @@ for (let i = 0; i < myArray.length; i++) {
 /* Sorting Numbers */
 const myArr3 = [4, 2, 5, 1000, -10, -4, 1];
 
-const sortFunction = (a, b ) => {
-    // console.log("sortFunction a:", a);
-    // console.log("sortFunction b:", b);
+const sortFunction = (a, b) => {
+  // console.log("sortFunction a:", a);
+  // console.log("sortFunction b:", b);
 
-    const test = a - b;
+  const test = a - b;
 
-    return test;
+  return test;
 }
-// myArr3.sort(sortFunction);
+myArr3.sort(sortFunction);
 // console.log('Arr',myArr3);
 
-// myArr3.sort((a, b) => b - a); // descending order = largest to small 9 to 0
+myArr3.sort((a, b) => b - a); // descending order = largest to small 9 to 0
 // console.log(myArr3);
 
-// myArr3.sort((a, b) => a - b); // ascending order = smallest to largest, 0 to 9
+myArr3.sort((a, b) => a - b); // ascending order = smallest to largest, 0 to 9
 // console.log(myArr3);

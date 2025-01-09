@@ -1,7 +1,7 @@
 
 /* Array String And Number Method */
 
-let colors = ["Red","Brown","Yellow","Gray","White"];
+let colors = ["Red", "Brown", "Yellow", "Gray", "White"];
 
 
 //start se
@@ -21,18 +21,18 @@ let colors = ["Red","Brown","Yellow","Gray","White"];
 
 
 
-let myArray = ["Yawar","Ali","Ahmed","Saad","raza","Ahsan","Ali"];
+let myArray = ["Yawar", "Ali", "Ahmed", "Saad", "raza", "Ahsan", "Ali"];
 
-let nums = [1,2,3,4,5,6,7,8,9];
+let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 /* array ko reassign kiya hai */
-// myArray[12] = "Sufiyan";
-// nums[13] = "Ali";
+myArray[12] = "Sufiyan";
+nums[13] = "Ali";
 
 //console.log(myArray[12]);
 //console.log(nums[13]);
 
-// console.log(myArray.join('-')); //ye array ki value ko join krta hai
+console.log(myArray.join('-')); //ye array ki value ko join krta hai
 
 // console.log(myArray.reverse()); // reverse value ko ulta krta hai
 // console.log(nums.reverse()); // reverse number ko ulta krta hai
@@ -45,32 +45,39 @@ let nums = [1,2,3,4,5,6,7,8,9];
 // console.log(myArray.includes("Ali")); // includes array me elements ko search krta hai agr elements array mil jae tw true return krta hai 
 
 let returnvalue1 = myArray.indexOf("Ali") // ye array ki index maloom krne ky liye use hota hai
+// console.log("IndexOf", returnvalue1);
+
 let returnvalue2 = myArray.lastIndexOf("Ali"); // ye array ki last-index maloom krne ky liye use hota hai
+// console.log("IndexOf", returnvalue2);
+
 let returnvalue3 = nums.indexOf(9)
 //console.log(returnvalue2);
 
-//let fruits = ["Banana","Orange","Apple","Peache"];
+let fruits = ["Banana", "Orange", "Apple", "Peache"];
 //console.log(fruits.slice(0,3)); // zero se 2 tak slice jese 0 se 3 tak diya hai ye 3 ko count nhi krta sirf 2 tak print hoga
 
 /* Slice for example */
-let userInput = prompt("Enter a month");
-let userMonthLength = userInput.length;
-if (userMonthLength > 3 ) {
-    userInput = userInput.slice(0,3)
-}
+// let userInput = prompt("Enter a month");
+// let userMonthLength = userInput.length;
+// if (userMonthLength > 3 ) {
+//     userInput = userInput.slice(0,3)
+// }
 // console.log(userInput);
 
 
- let months = ['Jan','March','April','June']
- months.splice(1,0,"Feb");  //splice me hum value remove bi kr sakte hain or add bi kr sakte hain 
- months.splice(4,0,"May"); 
- months.splice(3,1)
+let months = ['Jan', 'March', 'April', 'June']
+months.splice(1, 0, "Feb");  //splice me hum value remove bi kr sakte hain or add bi kr sakte hain 
+months.splice(4, 0, "May");
+months.splice(3, 1)
 //console.log(months);
 
-let p = "A man, a plan, a canal: Panama";
-//p = p.replace(" ",""); // replace kisi bhi element ko replace kr deta hai
-//p = p.replaceAll(" ",""); // replace jis bhi element ko ap replace krna chate ho replaceAll sab ko replace kr deta hai
+const arr5 = ['saqib', 'abid', 'ali', 'zahid']
+arr5.splice(2, 0, "Zuhaib");
+// console.log(arr5);
 
+let p = "A man, a plan, a canal: Panama";
+p = p.replace(" ", ""); // replace kisi bhi element ko replace kr deta hai
+p = p.replaceAll(" ", ""); // replace jis bhi element ko ap replace krna chate ho replaceAll sab ko replace kr deta hai
 
 
 // let arr1 = [1,2,3];
@@ -81,30 +88,31 @@ let p = "A man, a plan, a canal: Panama";
 
 let myStr = "      My Name is shehzad iqbal this can       "
 //console.log(myStr);
-//console.log(myStr.trim()); //trim string se extra gap khatam krta hai
-//let myStr_split = myStr.split(" ") //ye value ko tor deta hai and ye numbers ko split nhi krta
-//let myStr_join = myStr_split.join(" ") //ye value ko join kr deta hai
+// console.log(myStr.trim()); //trim string se extra gap khatam krta hai
+let myStr_split = myStr.split(" ") //ye value ko tor deta hai and ye numbers ko split nhi krta
+let myStr_join = myStr_split.join(" ") //ye value ko join kr deta hai
 
 let nums2 = 123456678;
 // console.log(nums2.split("")); // split numbers ko split nahi karta
 //console.log(nums2.length); // and numbers ki hum length maloom karengy tw undefined ayega 
 
-const myArr = [1,2,3,4,5,6]
+const myArr = [1, 2, 3, 4, 5, 6]
 console.log(myArr.length); // ye array ki length hai numbers ki length nahi 
 
 
 let name = "shaHwaIz-ali";
-//console.log(name.toUpperCase()); //ye value ko capital krta hai
-//console.log(name.toLowerCase()); //ye value ko small krta hai
-let firstAlpha = name.slice(0,1).toUpperCase(); 
+console.log(name.toUpperCase()); //ye value ko capital krta hai
+console.log(name.toLowerCase()); //ye value ko small krta hai
+let firstAlpha = name.slice(0, 1).toUpperCase();
 let baqiAlpha = name.slice(1).toLowerCase();
 let final = firstAlpha + baqiAlpha;
 //console.log(final);
 
 let newText = "Hello World";
-//console.log(newText.startsWith("W"));
 
-//console.log(final.charAt(3)); // hum index de kr value maloom kr sakte hain  
+// console.log("nexText", newText.startsWith("W"));
+
+// console.log("final",final.charAt(3)); // hum index de kr value maloom kr sakte hain  
 
 //console.log(final.indexOf('H')); // ye value ki index maloon krta hai
 
@@ -116,7 +124,7 @@ let newText = "Hello World";
 
 const url = "https://github.com/shahwaiz%20qasim";
 
-//console.log(url.replace('%20','-')); // hum string ko replace bhi krwa sakte hain
+console.log(url.replace('%20','-')); // hum string ko replace bhi krwa sakte hain
 
 //console.log(url.includes('sundar')); // includes se hum check krwate hain ye string array me hai ya nhi
 
@@ -141,7 +149,7 @@ const hundreds = 1000000;
 
 
 let myText = "Hello My name is Syed Shahwaiz Shah And My father name is Shah ali";
-let mytxt = myText.replace("hello","Hi") // replace array me se ak string ko replace krta hai
+let mytxt = myText.replace("hello", "Hi") // replace array me se ak string ko replace krta hai
 // let mytext = mytxt.replaceAll(/Shah/g,"Qasim"); // replaceAll string ya array me se multiple element ko replace kr deta hai
 //console.log(mytxt);
 
@@ -152,7 +160,7 @@ let mytxt = myText.replace("hello","Hi") // replace array me se ak string ko rep
 
 let fullName = "Shahwaiz"; // charAt()
 //console.log(fullName.charAt(fullName.charAt())); // jese hum array ki index ko print krwate hai wese chatAt-function se hum string me se kisi alphabet ko print krwa sakte hain
-//console.log(fullName.charAt(fullName.length-1)); // is sy hum string ka last alphabet print krwa sakte hain  
+//console.log(fullName.charAt(fullName.length-1)); // is sy hum string ka last alphabet print krwa sakte hain
 
 
 /* ############################################# Maths #################################################### */
@@ -174,7 +182,7 @@ let fullName = "Shahwaiz"; // charAt()
 
 // console.log(Math.random()); // ye har bar refresh krny se new number genrate krta hai
 
- // console.log((Math.random() * 10 ) + 2);
+// console.log((Math.random() * 10 ) + 2);
 
 // console.log(Math.floor(Math.random()*10) + 1);
 
@@ -187,9 +195,8 @@ let fullName = "Shahwaiz"; // charAt()
 // console.log(Math.floor(Math.random() * (max - min + 1) + min));
 
 
-// pracice username 
-let userFullName = prompt("Enter your Full Name");
-let userName = `@${userFullName}${userFullName.length}`;
-console.log(userName);
+// pracice username
+// let userFullName = prompt("Enter your Full Name");
+// let userName = `@${userFullName}${userFullName.length}`;
+// console.log(userName);
 
-  
