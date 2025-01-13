@@ -38,7 +38,7 @@ function findLargestValue(arr) {
 }
 
 const arr = ["hello", "I", "helloShahwaiz"]
-console.log(findLargestValue(arr));
+// console.log(findLargestValue(arr));
 
 
 
@@ -67,7 +67,7 @@ function printName(times) {
     }
 }
 
-printName(10);
+// printName(10);
 
 // second-Method
 // console.log(Array(10).fill("Shahwaiz").join("\n"));
@@ -108,3 +108,33 @@ function checkPalindrome(str) {
 }
 
 // console.log("checkPalindrome", checkPalindrome("LEVEL"));
+
+
+// Q7
+// Write a function that takes a positive integer a as input and prints numbers from 1 to a with the following conditions
+// 1)For numbers divisible by both 3 and 5, print "FizzBuzz".
+// 2)For numbers divisible by only 3, print "Fizz".
+// 3)For numbers divisible by only 5, print "Buzz".
+// 4)For all other numbers, print the number itself.
+
+let n = 50;
+
+function ProblemSolve(n) {
+    if (n > 0) {
+        for (let i = 1; i <= n; i++) {
+            if (i % 3 === 0 && i % 5 === 0) {
+                console.log("FizzBuzz");
+            }
+            if (i % 3 === 0) {
+                console.log("Fizz");
+            }
+            if (i % 5 === 0) {
+                console.log("Buzz");
+            }
+        }
+    }
+}
+
+ProblemSolve(n);
+
+
