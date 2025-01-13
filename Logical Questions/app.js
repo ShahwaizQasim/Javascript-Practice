@@ -125,16 +125,49 @@ function ProblemSolve(n) {
             if (i % 3 === 0 && i % 5 === 0) {
                 console.log("FizzBuzz");
             }
-            if (i % 3 === 0) {
+            else if (i % 3 === 0) {
                 console.log("Fizz");
             }
-            if (i % 5 === 0) {
+            else if (i % 5 === 0) {
                 console.log("Buzz");
+            }
+            else {
+                console.log(i);
             }
         }
     }
 }
 
-ProblemSolve(n);
+// ProblemSolve(n);
+
+
+// Q8)"Write a function that implements the FizzBuzz logic and stores the results in an array. The function should take two parameters: an empty 
+// array and a number n. It should return the array with processed results."
+
+function ProblemFizzbuzzSolve(arr8, n1) {
+    if (n1 > 0) {
+        for (let i = 1; i <= n1; i++) {
+            if (i % 3 === 0 && i % 5 === 0) {
+                arr8.push("FizzBuzz");
+            }
+            else if (i % 3 === 0) {
+                arr8.push("Fizz");
+
+            }
+            else if (i % 5 === 0) {
+                arr8.push("Buzz");
+            }
+            else {
+                arr8.push(i)
+            }
+        }
+    }
+    return arr8;
+}
+
+const arr8 = [];
+const n1 = 50;
+
+console.log(ProblemFizzbuzzSolve(arr8, n1));
 
 
