@@ -5,6 +5,16 @@
 // 2. fulfilled = the result is a value (fullfilled) // jb response a jaye ga tw state fullfilled ho jaegi
 // 3. reject = the error is an error object
 
+
+// Async:
+// async ek function ko asynchronous bana deta hai. Iska matlab hai ke yeh function automatically ek promise return karega,
+
+// Await:
+// await ek keyword hai jo async function ke andar use hota hai. Yeh promise ka result tab tak wait karta hai jab tak promise resolve na ho jaye.
+
+// Async: function ko asynchronous banata hai jo promise return karta hai.
+// Await: promise ke complete hone tak rukta hai aur uska result return karta hai.
+
 const functionApi = async (event) => {
   try {
     event.preventDefault();
