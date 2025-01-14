@@ -168,7 +168,7 @@ function ProblemFizzbuzzSolve(arr8, n1) {
 const arr8 = [];
 const n1 = 50;
 
-console.log(ProblemFizzbuzzSolve(arr8, n1));
+// console.log(ProblemFizzbuzzSolve(arr8, n1));
 
 
 // Q9) Problem: Longest Sub String without repeating characters 
@@ -197,4 +197,35 @@ function LongestStringWithoutRepeat(str) {
 }
 
 let str = "abcbba";
-console.log(LongestStringWithoutRepeat(str));
+// console.log(LongestStringWithoutRepeat(str));
+
+
+//Q10) An array will be given to you , in the array there will be some of the strings written , so you have to find it out by comparing two 
+// different strings together with each other . Those array element strings which are palindrome will be printed out in the console as True and those
+// which are not palindrome will be printed out as False.
+
+//Q)Write a function given array and check array index  if array index palindrome here true show if array index not palindrome here false show  
+
+// Input: ["madam", "hello", "world", "level", "radar"]
+
+// Output: [Yes, No, No, Yes, Yes]
+
+function CheckPalindromeInArray(arr) {
+    const reversedArray = [];
+    const resultArray = [];
+    for (let i = 0; i < arr.length; i++) {
+        reversedArray.push(arr[i].split("").reverse().join(""))
+        if (arr[i] === reversedArray[i]) {
+            resultArray.push(reversedArray[i])
+        } else {
+            resultArray.push("not palindrome")
+        }
+        console.log(reversedArray);
+    }
+    return resultArray;
+
+}
+
+const array = ["madam", "sports", "car", "level"]
+console.log(CheckPalindromeInArray(array));
+
