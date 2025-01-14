@@ -227,5 +227,23 @@ function CheckPalindromeInArray(arr) {
 }
 
 const array = ["madam", "sports", "car", "level"]
-console.log(CheckPalindromeInArray(array));
+// console.log(CheckPalindromeInArray(array));
+
+
+
+// Question_11
+
+// Here you are required to find the factorial of any number given to us 
+
+const factorialFact = (n) => {
+    let factorial = 1
+    for (let i = 1; i <= n; i++) {
+        factorial = i * factorial // 720
+    }
+    return factorial;
+}
+
+const num = 6;
+console.log(factorialFact(num));
+
 
