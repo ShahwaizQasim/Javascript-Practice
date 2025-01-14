@@ -171,3 +171,30 @@ const n1 = 50;
 console.log(ProblemFizzbuzzSolve(arr8, n1));
 
 
+// Q9) Problem: Longest Sub String without repeating characters 
+
+function LongestStringWithoutRepeat(str) {
+    let longest = "";
+    let current = "";
+    for (let i = 0; i < str.length; i++) {
+        let char = str[i]
+
+        // If the character is already in the current substring
+        if (current.includes(char)) {
+            // Remove all characters up to and including the repeated character
+            current = current.slice(current.indexOf(char) + 1)
+        }
+
+        // Add the current character to the substring
+        current += char;
+
+        if (current.length > longest.length) {
+            longest = current
+        }
+    }
+
+    return longest;
+}
+
+let str = "abcbba";
+console.log(LongestStringWithoutRepeat(str));
