@@ -66,3 +66,12 @@ console.log(message);
 // \n se line chane hoti hai
 let counting = " Shahwaiz \n Qasim";
 console.log(counting);
+
+
+// Javascript is case sensitive
+
+let Same = "John";
+let same = "Doe";
+
+console.log(Same); // Output: John
+console.log(same); // Output: Doe
