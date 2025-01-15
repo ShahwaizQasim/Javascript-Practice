@@ -10,13 +10,13 @@
 
 /* Asynchronous Programming */
 
-// function hello(){
-//     console.log("hello");
-// }
-// setTimeout(hello , 2000); // timeout: 2s = 2000ms
+function hello(){
+    console.log("hello");
+}
+setTimeout(hello , 2000); // timeout: 2s = 2000ms
 
-// console.log('one'); // first time ye execute hoa
-// console.log('two'); // second time ye
+console.log('one'); // first time ye execute hoa
+console.log('two'); // second time ye
 
 setTimeout(() => {
   // console.log("hello"); // ye function time le raha tha is liye ye function nhi chala
@@ -62,3 +62,17 @@ getData(1, () => { // nested callback => callback hell
 });
 
 /* Promises Concept = callback hell wali problem ko solve krne me hum promises use krte hain */ 
+
+
+// Callsback
+
+function greet(name, callback) {
+  console.log(`Hello, ${name}!`);
+  callback();
+}
+
+function sayGoodbye() {
+  console.log("Goodbye!");
+}
+
+greet("Shahwaiz", sayGoodbye);
