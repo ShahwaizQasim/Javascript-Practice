@@ -210,24 +210,22 @@ let str = "abcbba";
 
 // Output: [Yes, No, No, Yes, Yes]
 
-function CheckPalindromeInArray(arr) {
-    const reversedArray = [];
-    const resultArray = [];
+function PalindromeChecker(arr) {
+    let reverseArray = [];
+    let resultArray = [];
     for (let i = 0; i < arr.length; i++) {
-        reversedArray.push(arr[i].split("").reverse().join(""))
-        if (arr[i] === reversedArray[i]) {
-            resultArray.push(reversedArray[i])
+        reverseArray.push(arr[i].split("").reverse().join(""));
+        if (arr[i] == reverseArray[i]) {
+            resultArray.push(reverseArray[i]);
         } else {
             resultArray.push("not palindrome")
         }
-        console.log(reversedArray);
     }
     return resultArray;
-
 }
 
-const array = ["madam", "sports", "car", "level"]
-// console.log(CheckPalindromeInArray(array));
+const arr10 = ["madam", "wasid", "husnain", "level", "racecar"];
+// console.log(PalindromeChecker(arr10));
 
 
 
@@ -244,6 +242,39 @@ const factorialFact = (n) => {
 }
 
 const num = 6;
-console.log(factorialFact(num));
+// console.log(factorialFact(num));
 
 
+
+// Q12) String Palindrom Check 
+
+let str3 = "racecar3";
+
+function StringPalindrome(str3) {
+    let str = str3;
+    let reverseStr = str3.split("").reverse().join("");
+    let result = str === reverseStr;
+    return result;
+}
+
+// console.log(StringPalindrome(str3));
+
+
+
+// Q13) Remove Duplicates from an array without using sets
+
+function RemoveDuplicateArray(array) {
+
+    // return [...new Set(array)] // JavaScript me Set ko use karna sabse best hai, kyunki ye automatically duplicates ko remove kar leta hai.
+
+    let uniqueArr = [];
+    for (let i = 0; i < array.length; i++) {
+        if (!uniqueArr.includes(array[i])) {
+            uniqueArr.push(array[i]);
+        }
+    }
+    return uniqueArr;
+}
+
+const array = [2, 3, 4, 5, 6, 2, 7, 8, 2, 9, 0,];
+console.log(RemoveDuplicateArray(array));
