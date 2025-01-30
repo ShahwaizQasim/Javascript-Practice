@@ -28,7 +28,7 @@ let empty = null;
 /*symbol ki value same nhi hoti*/
 let practice = Symbol("Ali");
 let practice2 = Symbol("Ali");
-//console.log(practice===practice2);
+// console.log(practice==practice2);
 
 //BigInt
 let number = 2775446789000875335763n;
