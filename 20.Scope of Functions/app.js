@@ -83,3 +83,53 @@ is function ko humne ak variable me store krdia */
 const addTwo = function(nums){  
     return nums + 2;
 }
+
+
+// Javascript Scopes 
+
+
+// 1) Global Scope 
+
+// Agar aap variable ko function ke bahar declare karte ho, to vo globally available hota hai.
+// Example
+// var a = 10; // Global variable
+// console.log(a); // Accessible anywhere in your code
+
+
+
+// 2) Block Scope 
+
+// ES6 me let aur const introduce hue, jo block-level scoping provide karte hain.
+// Iska matlab hai ke agar aap variable ko kisi block (jaise if, for, while, etc.) ke andar declare karte
+// ho, to vo sirf us block ke andar accessible hota hai.
+
+// Example
+
+// if (true) {
+//     let c = 30; // Block-scoped variable
+//     console.log(c); // Accessible yahan
+// }
+// console.log(c); // Error: c is not defined, kyunki yeh block ke bahar accessible nahi hai
+
+
+
+// 3) Function Scope 
+
+// Variables jo ek function ke andar declare hote hain, vo sirf us function ke andar hi accessible hote
+// hain.
+// Example
+// function myFunction() {
+//     var b = 20; // Function-scoped variable
+//     console.log(b); // Accessible here
+// }
+// myFunction();
+// console.log(b); // Error: b is not defined, kyunki yeh function ke bahar accessible nahi hai
+
+
+
+// Summary:
+// Global Scope: Variable ko code ke kahin se bhi access kiya ja sakta hai.
+// Function Scope: Variable sirf function ke andar available hota hai.
+// Block Scope: let aur const se declare kiye hue variables sirf unke block ke andar available hote hain.
+// Lexical Scoping: Variable ka scope uski declaration location se determine hota hai.
+// Closures: Inner functions outer variables ko access aur remember karte hain, jo powerful aur useful technique hai.

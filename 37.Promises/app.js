@@ -46,3 +46,56 @@ fetch(API_URL1)
   .catch((error) => {
     console.log(error.message);
   });
+
+
+
+// .then()/.catch() vs try-catch
+
+
+//  .then()/.catch():
+
+// Kahan use hotay hain?
+// Ye promise-based asynchronous code me use hotay hain.
+
+// Kaise kaam karte hain?
+// Jab aap koi promise return karte ho, to aap .then() ke through resolved value handle karte ho, aur agar koi error aata hai to .catch() use kar ke error handle karte ho.
+
+// Example:
+
+// fetchData()
+//   .then(result => {
+//     console.log("Data received:", result);
+//   })
+//   .catch(error => {
+//     console.error("Error:", error);
+//   });
+// Yahan agar fetchData() promise resolve ho jata hai, .then() execute hoga. Agar promise reject
+// ho jata hai, .catch() handle karega error ko.
+
+
+// try-catch:
+
+// Kahan use hotay hain?
+// Ye synchronous code me errors catch karne ke liye use hotay hain.
+// Aur jab aap async/await use karte ho, to asynchronous code me bhi try-catch use kar sakte ho.
+
+// Kaise kaam karte hain?
+// Aap ek code block ko try ke andar likhte ho. Agar us block me koi error throw hota hai, to control catch block me chala jata hai.
+
+// Example with async/await:
+
+// async function getData() {
+//   try {
+//     const result = await fetchData(); // fetchData returns a promise
+//     console.log("Data received:", result);
+//   } catch (error) {
+//     console.error("Error:", error);
+//   }
+// }
+
+// getData();
+// Yahan async function getData() me await use karne se code synchronous jaisa lagta hai, aur try-catch
+// error ko handle karta hai.
+
+
+
