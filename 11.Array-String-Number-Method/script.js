@@ -37,7 +37,8 @@ console.log(myArray.join('-')); //ye array ki value ko join krta hai
 // console.log(myArray.reverse()); // reverse value ko ulta krta hai
 // console.log(nums.reverse()); // reverse number ko ulta krta hai
 
-// console.log('nums',nums.length); // length array ki lenth batata hai but number ki length nhi batata
+const str = "shahwaiz"
+// console.log('nums',str.length); // length array ki lenth batata hai or string ki bi but number ki length nhi batata
 
 //console.log(myArray.sort()); // sort value ko alphabet ky sequence se likhta hai
 //console.log(nums.sort()); // sort value ko alphabet ky sequence se likhta hai
@@ -69,7 +70,7 @@ let months = ['Jan', 'March', 'April', 'June']
 months.splice(1, 0, "Feb");  //splice me hum value remove bi kr sakte hain or add bi kr sakte hain 
 months.splice(4, 0, "May");
 months.splice(3, 1)
-//console.log(months);
+console.log(months);
 
 const arr5 = ['saqib', 'abid', 'ali', 'zahid']
 arr5.splice(2, 0, "Zuhaib");

@@ -9,7 +9,7 @@
 let num = 20;
 num++; // increment operator
 num++; // unary operator
-// num += 5;
+num += 5;
 // console.log(num);
 
 //Decrement
@@ -29,7 +29,7 @@ console.log(balance);
 let nr1 = 5;
 let nr2 = 10;
 let nr3 = 4;
-//console.log(nr1++ + ++nr2 * nr3++); Ans 49
+// console.log(nr1++ + ++nr2 * nr3++); // Ans 49
 //console.log(nr1++ + ++nr2 * --nr3); Ans 38
 console.log(`nr1=${nr1} n r2=${nr2} nr3=${nr3} = ${nr1 + nr2 + nr3}`); // backticks
 

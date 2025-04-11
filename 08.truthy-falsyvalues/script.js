@@ -27,16 +27,17 @@ let myFunction = function(){
 
 
 
-//let boolean = Boolean("sha");
-//console.log(boolean);
+let boolean = Boolean(0); //false
+let boolean2 = Boolean("0"); //true
+// console.log(boolean);
 
 
 
 // Or Operator
 /* Or operator me ak bi value true tw condition true */
 
-//console.log( false || false); //false
-//console.log( true || false); //true
+//console.log( false || false); // false
+//console.log( true || false); // true
 
 let test1 = false || true || false;
 // console.log(test1);
@@ -46,9 +47,9 @@ let tea = false;
 let drink = false;
 
 if (food || tea || drink) {
-    // console.log("le aao");
+    console.log("le aao");
   } else {
-    // console.log("ghar jao");
+    console.log("ghar jao");
   }
 
 
@@ -78,7 +79,8 @@ if (isEnroll && passed && age > 18) {
 }
 
 
-// aakhir me truthy value return kare ga
+// && (Logical AND):
+// Jab tak falsy value nahi milti, tab tak evaluate karta hai. Pehli falsy value return karta hai. Agar sab truthy hain, to last truthy value return karta hai.
 let test2 = true && "shehzad";
 let test3 = "shehzad" && true;
 let test4 = null && "shehzad" && 56;
@@ -88,9 +90,13 @@ let test6 = true && 0 && 56;
 let test7 = "hh" && null;
 let test8 = "hh" && "kk";
 
-// Phale truthy value return kare ga
+// console.log(test3);
+
+
+// || (Logical OR):
+// Jab tak truthy value nahi milti, tab tak evaluate karta hai. Pehli truthy value return karta hai. Agar sab falsy hain, to last falsy value return karta hai.
 let test9 = "shehzad" || true;
-//console.log(test9);
+// console.log(test9);
 let test10 = "" || null;
 let test11 = "" || true;
 let test12 = "shehzad" || 0 || null || true;

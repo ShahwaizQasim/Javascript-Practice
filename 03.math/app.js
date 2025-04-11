@@ -71,10 +71,10 @@ let num2 = "2";
 //  let percentage = (obtain_marks / total_number) * 100 ;
 //  console.log("Percentage: ", percentage);
 
-let total_number = prompt("Total Number");
-let obtain_marks = prompt("Obtain Marks");
-let percentage = (obtain_marks / total_number) * 100;
-alert("Your Percentage" + Math.floor(percentage));
+// let total_number = prompt("Total Number");
+// let obtain_marks = prompt("Obtain Marks");
+// let percentage = (obtain_marks / total_number) * 100;
+// alert("Your Percentage" + Math.floor(percentage));
 
 /* salary increase karne ka tariqa */
 let salary = 25000;

@@ -21,7 +21,7 @@ let student2 = {
 }
 // console.log(student2); // objects print
 
-// console.log(student2[userName]); // objects name print
+console.log(student2[userName]); // objects name print
 
 // console.log(student2.hobbies[2]); // objects ky ander se array print krwaya hai
 
