@@ -29,10 +29,10 @@ let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 myArray[12] = "Sufiyan";
 nums[13] = "Ali";
 
-//console.log(myArray[12]);
-//console.log(nums[13]);
+// console.log(myArray);
+// console.log(nums);
 
-console.log(myArray.join('-')); //ye array ki value ko join krta hai
+// console.log(myArray.join('-')); //ye array ki value ko join krta hai
 
 // console.log(myArray.reverse()); // reverse value ko ulta krta hai
 // console.log(nums.reverse()); // reverse number ko ulta krta hai
@@ -52,7 +52,7 @@ let returnvalue2 = myArray.lastIndexOf("Ali"); // ye array ki last-index maloom 
 // console.log("IndexOf", returnvalue2);
 
 let returnvalue3 = nums.indexOf(9)
-//console.log(returnvalue2);
+// console.log(returnvalue3);
 
 let fruits = ["Banana", "Orange", "Apple", "Peache"];
 //console.log(fruits.slice(0,3)); // zero se 2 tak slice jese 0 se 3 tak diya hai ye 3 ko count nhi krta sirf 2 tak print hoga

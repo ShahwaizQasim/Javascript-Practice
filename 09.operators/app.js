@@ -23,27 +23,34 @@
 let x = 5 ;
 x += 4; // same
 //x = x + 4; same
-console.log(x);
+// console.log(x);
 
 let y = 6;
 y -= 6;
 //y = y - 6; 
-console.log(y);
+// console.log(y);
+
+
+let z = 4;
+z += 4
+z *= 2
+// console.log(z);
+
 
 
 /* Comparison Operator */
 
-// let a = 20;
-// let b = 20;
+let a1 = 20;
+let b1 = 20;
 
-//console.log( a == b )  // =>  ye sirf value check krta hai 
-//console.log( a === b ) // =>  ye value or data-type dono check krta hai
-//console.log( a != b ) // =>  ye != sirf value check karega data-type nhi
-//console.log( a !== b ) // =>  ye !== value bi check karega or data type bi 
-//console.log( a > b ) // => Greater Than
-//console.log( a < b ) // => Less Than
-//console.log( a >= b ) // => a ki value bari ho ya a ky braber ho b ki value
-//console.log( a <= b ) // => b ki value bari ho ya b ky braber ho a ki value
+// console.log( a1 == b1 )  // =>  ye sirf value check krta hai 
+// console.log( a1 === b1 ) // =>  ye value or data-type dono check krta hai
+// console.log( a1 != b1 ) // =>  ye != sirf value check karega data-type nhi
+// console.log( a1 !== b1 ) // =>  ye !== value bi check karega or data type bi 
+// console.log( a1 > b1 ) // => Greater Than
+// console.log( a1 < b1 ) // => Less Than
+// console.log( a1 >= b1 ) // => a1 ki value bari ho ya a1 ky braber ho b1 ki value
+// console.log( a1 <= b1 ) // => b1 ki value bari ho ya b1 ky braber ho a ki value
 
 
 /* Logical Operators */
@@ -61,11 +68,11 @@ let num2 = 10;
 //console.log( true || false); //true
 
 //Example
-// if (num1 > num2 || num1 < num2) {
+if (num1 > num2 || num1 < num2) {
 //     console.log(true);
-// }else{
+}else{
 //     console.log(false);
-// }
+}
 
 //&& Operator
 /* && operator me ak bi value false tw condition false*/
@@ -80,7 +87,8 @@ if (num2 > num1 && num1 < num2) {
 }
 
 
-// aakhir me truthy value return kare ga
+// && (Logical AND):
+// Jab tak falsy value nahi milti, tab tak evaluate karta hai. Pehli falsy value return karta hai. Agar sab truthy hain, to last truthy value return karta hai.
 let test2 = true && "shehzad";
 let test3 = "shehzad" && true;
 let test4 = null && "shehzad" && 56;
@@ -90,7 +98,8 @@ let test6 = true && 0 && 56;
 let test7 = "hh" && null;
 let test8 = "hh" && "kk";
 
-// Phale truthy value return kare ga
+// || (Logical OR):
+// Jab tak truthy value nahi milti, tab tak evaluate karta hai. Pehli truthy value return karta hai. Agar sab falsy hain, to last falsy value return karta hai.
 let test9 = "shehzad" || true;
 //console.log(test9);
 let test10 = "" || null;
