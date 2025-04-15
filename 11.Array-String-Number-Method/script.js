@@ -88,10 +88,11 @@ p = p.replaceAll(" ", ""); // replace jis bhi element ko ap replace krna chate h
 
 
 let myStr = "      My Name is shehzad iqbal this can       "
-//console.log(myStr);
-// console.log(myStr.trim()); //trim string se extra gap khatam krta hai
-let myStr_split = myStr.split(" ") //ye value ko tor deta hai and ye numbers ko split nhi krta
+console.log(myStr);
+console.log(myStr.trim()); //trim string se extra gap khatam krta hai
+let myStr_split = myStr.split("") //ye value ko tor deta hai and ye numbers ko split nhi krta
 let myStr_join = myStr_split.join(" ") //ye value ko join kr deta hai
+
 
 let nums2 = 123456678;
 // console.log(nums2.split("")); // split numbers ko split nahi karta
@@ -107,7 +108,7 @@ console.log(name.toLowerCase()); //ye value ko small krta hai
 let firstAlpha = name.slice(0, 1).toUpperCase();
 let baqiAlpha = name.slice(1).toLowerCase();
 let final = firstAlpha + baqiAlpha;
-//console.log(final);
+// console.log(final);
 
 let newText = "Hello World";
 
@@ -115,9 +116,9 @@ let newText = "Hello World";
 
 // console.log("final",final.charAt(3)); // hum index de kr value maloom kr sakte hain  
 
-//console.log(final.indexOf('H')); // ye value ki index maloon krta hai
+// console.log(final.indexOf('H')); // ye value ki index maloon krta hai
 
-//console.log(final.lastIndexOf('a')); // ye last wala a return karega 
+// console.log(final.lastIndexOf('a')); // ye last wala a return karega 
 
 //console.log(final.substring(0,8)); // ye akhiri index ko count nhi krta 0 se 7 tak value count krta hai
 
@@ -125,11 +126,11 @@ let newText = "Hello World";
 
 const url = "https://github.com/shahwaiz%20qasim";
 
-console.log(url.replace('%20','-')); // hum string ko replace bhi krwa sakte hain
+// console.log(url.replace('%20','-')); // hum string ko replace bhi krwa sakte hain
 
-//console.log(url.includes('sundar')); // includes se hum check krwate hain ye string array me hai ya nhi
+// console.log(url.includes('sundar')); // includes se hum check krwate hain ye string array me hai ya nhi
 
-//console.log(url);
+// console.log(url);
 
 
 /* Number Method */
@@ -143,16 +144,16 @@ const balance = new Number(100.44444444444);
 // console.log(balance.toFixed(2)); // toFixed se hum point kay bad value ko control kar sakhte hain
 
 const otherNumber = 23.8966;
-//console.log(otherNumber.toPrecision(4)); // toPrecision me hum jitna number dengy wo itna hi number output me roundoff krky show karega
+// console.log(otherNumber.toPrecision(2)); // toPrecision me hum jitna number dengy wo itna hi number output me roundoff krky show karega
 
 const hundreds = 1000000;
-//console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-IN'));
 
 
 let myText = "Hello My name is Syed Shahwaiz Shah And My father name is Shah ali";
 let mytxt = myText.replace("hello", "Hi") // replace array me se ak string ko replace krta hai
-// let mytext = mytxt.replaceAll(/Shah/g,"Qasim"); // replaceAll string ya array me se multiple element ko replace kr deta hai
-//console.log(mytxt);
+let mytext = mytxt.replaceAll(/Shah/g,"Qasim"); // replaceAll string ya array me se multiple element ko replace kr deta hai
+// console.log(mytxt);
 
 
 // let str = 'hello world hello world'

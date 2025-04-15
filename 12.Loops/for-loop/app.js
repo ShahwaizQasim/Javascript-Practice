@@ -1,4 +1,5 @@
 /* for loop syntax */
+
 // for(initialization;condition;increment/decrement){
 //     loop_body
 // }
@@ -8,9 +9,10 @@
 // }
 
 /* ak element ko bar bar print krnwane me use krte hain hum loop */
+
 //agr loop ki condition false hogi tw loop nhi chalega
 for (let i = 0; i < 5; i++) {
-  document.write("Shahwaiz <br/>");
+  // document.write("Shahwaiz <br/>");
 }
 
 //clock
@@ -31,12 +33,12 @@ for (let i = 0; i < 15; i++) {
 
 /* Reverse Counting Method 1 */
 for (let i = 10; i > 0; i--) {
-    // document.write(`Reverse Counting ${i} <br/>` );
+  // document.write(`Reverse Counting ${i} <br/>` );
 }
 
 /* Reverse Counting Method 2 */
 for (let i = 0; i < 10; i++) {
-    document.write(`${10 - i}  <br/>`);
+  // document.write(`${10 - i}  <br/>`);
 }
 
 let pets = [];
@@ -54,35 +56,35 @@ pets[3] = "dog";
 //console.log(arr);
 
 /* Array Values Print */
-let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
-for (let i = 0; i < names.length; i++) {
-  names[i] = `Hello ${names[i]}`; // array me string add ki hai
-  console.log(names[i]);
+const studentNames = ["Kunal", "Ahmed", "Junaid", "Adil"];
+for (let i = 0; i < studentNames.length; i++) {
+  studentNames[i] = `Salam ${studentNames[i]}`;
+  // console.log(studentNames[i]);
 }
 
-let namesArr = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
-for (let i = 0; i < namesArr.length; i++) {
-  if (namesArr[i].startsWith("J")) {
-    delete namesArr[i];
+const FriendNames = ["Kunal", "Ahmed", "Junaid", "Adil","Kavya"];
+for (let i = 0; i < FriendNames.length; i++) {
+  if (FriendNames[i].startsWith('K')) {
+    delete FriendNames[i];
     continue;
   }
+  console.log(FriendNames[i]);
 }
-console.log(namesArr);
 
 /* break and continue */
 
 for (let index = 1; index <= 20; index++) {
   if (index == 5) {
-    //console.log(`Detected 5`);
+    console.log(`Detected 5`);
     break; // jesi condition true hogi wesi loop rukh jaega or scopes ka bhar liyaega
   }
-  //console.log(`Value of i is ${index}`);
+  // console.log(`Value of i is ${index}`);
 }
 
 for (let index = 1; index <= 20; index++) {
   if (index == 5) {
-    //console.log(`Detected 5`);
+    console.log(`Detected 5`);
     continue; // continue kehta hai ak bar maaf krdo or code ko chala deta hai but break aesa nhi krta
   }
-  // console.log(`Value of i is ${index}`);
+  console.log(`Value of i is ${index}`);
 }
