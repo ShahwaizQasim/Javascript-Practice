@@ -30,6 +30,22 @@ if (ArrSearch == true) {
   console.log("Grapes Nhi mily");
 }
 
+
+const studentArray = ["ALi", "Ahsan", "Waqarw", "Haider", "Qasim"]
+let arraySearch = false;
+
+for (let i = 0; i < studentArray.length; i++) {
+   if (studentArray[i] === "Waqar" ) {
+       arraySearch = true;
+       break
+   }
+}
+if (arraySearch === true) {
+  console.log("Student Mil Gaya"); 
+}else{
+  console.log("Student Nhi Mila");
+}
+
 /* splice array se value ko remove krta hai or jahan se remove krta hai wahin pr add bi krdeta hai */
 basket.splice(1, 3, "Fruit", "Vegetables", "S");
 // console.log(basket);

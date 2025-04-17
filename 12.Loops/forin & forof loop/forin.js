@@ -1,5 +1,12 @@
 /* forin loop */
 
+const programming = ["js", "py", "php", "c"];
+// console.log(programming[0]);
+for (const key in programming) {
+  // console.log(key); // forin me aese array ki key ayengi
+  //console.log(programming[key]); forin loop me aese array ki value print krwate hain
+}
+
 const myObj = {
   js: "javascript",
   cpp: "C++",
@@ -8,14 +15,7 @@ const myObj = {
 };
 for (const key in myObj) {
   // forin loop Object pr kaam kr raha hai and forof loop obj pr kaam nhi kr raha
-//   console.log(`${key} => ${myObj[key]}`);
-}
-
-const programming = ["js", "py", "php", "c"];
-// console.log(programming[0]);
-for (const key in programming) {
-  // console.log(key); // forin me aese array ki key ayengi
-  //console.log(programming[key]); forin loop me aese array ki value print krwate hain
+  console.log(`${key} => ${myObj[key]}`);
 }
 
 // const map = new Map();
@@ -26,3 +26,15 @@ for (const key in programming) {
 // for (const key in map) {
 //    console.log(key);
 // }
+
+
+const trainerDetails = {
+  name: "Shehzad Iqbal",
+  Speciality: 'Web & App Developement',
+  Campus: "H.O",
+}
+
+for (const key in trainerDetails) {
+ console.log(`${key} => ${trainerDetails[key]}`);
+ 
+}
