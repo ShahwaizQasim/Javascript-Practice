@@ -46,27 +46,27 @@ matrix ko plus kiya hai and print bi matrix form me kiya hai
 first Method
 */
 
-// let matrix1 = [
-//     [2, 6, 8, 0],
-//     [1, 3, 5, 7],
-//     [2, 3, 9, 5],
-//   ];
-  
-// let matrix2 = [
-//     [5, 8, 9, 1],
-//     [2, 3, 7, 3],
-//     [2, 5, 7, 8]
-//   ];
+let matrix3 = [
+  [2, 6, 8, 0],
+  [1, 3, 5, 7],
+  [2, 3, 9, 5],
+];
 
-// let result = [[],[],[]];
+let matrix4 = [
+  [5, 8, 9, 1],
+  [2, 3, 7, 3],
+  [2, 5, 7, 8]
+];
 
-// for (let i = 0; i < matrix1.length; i++) {
-//     //console.log(i);
-//     for (let j = 0; j < matrix1[i].length; j++) {
-//         const sum = matrix1[i][j] + matrix2[i][j];
-//         result[i].push(sum);
-//     }
-// }
+let result5 = [[], [], []];
+
+for (let i = 0; i < matrix3.length; i++) {
+  //console.log(i);
+  for (let j = 0; j < matrix3[i].length; j++) {
+    const sum = matrix3[i][j] + matrix4[i][j];
+    result5[i].push(sum);
+  }
+}
 // //document.write(result)
 // console.log(result);
 
@@ -77,25 +77,25 @@ matrix ko plus kiya hai and print bi matrix form me kiya hai
 */
 
 let matrix1 = [
-    [2, 6, 8, 0],
-    [1, 3, 5, 7],
-    [2, 3, 9, 5],
-  ];
-  
+  [2, 6, 8, 0],
+  [1, 3, 5, 7],
+  [2, 3, 9, 5],
+];
+
 let matrix2 = [
-    [5, 8, 9, 1],
-    [2, 3, 7, 3],
-    [2, 5, 7, 8]
-  ];
+  [5, 8, 9, 1],
+  [2, 3, 7, 3],
+  [2, 5, 7, 8]
+];
 
 let result = [];
 
 for (let i = 0; i < matrix1.length; i++) {
-    result[i] = [];
-    for (let j = 0; j < matrix1[i].length; j++) {
-        const sum = matrix1[i][j] + matrix2[i][j];
-        result[i].push(sum)
-    }
+  result[i] = [];
+  for (let j = 0; j < matrix1[i].length; j++) {
+    const sum = matrix1[i][j] + matrix2[i][j];
+    result[i].push([sum])
+  }
 }
 console.log(result);
 
@@ -110,7 +110,7 @@ matrix ko plus kiya hai and print bi matrix form me kiya hai
 //       [1, 3, 5, 7],
 //       [2, 3, 9, 5],
 //     ];
-    
+
 // let matrix2 = [
 //       [5, 8, 9, 1],
 //       [2, 3, 7, 3],
@@ -144,10 +144,49 @@ matrix ko plus kiya hai and print bi matrix form me kiya hai
 //     [5, 6, 9],
 //     [7, 3, 6] 
 //   ];
-  
+
 //   //console.log(matrix1[0][0] ** 2);
 //   for (let i = 0; i < matrix5.length; i++) {
 //      for (let j = 0; j < matrix5[i].length; j++) {
 //         console.log(matrix5[i][j] ** 2);
 //      }
 //   }
+
+
+
+
+const matrix10 = [
+  [5, 2, 1, 1],
+  [6, 8, 3, 9],
+  [10, 5, 15, 23],
+  [9, 2, 5, 6]
+]
+
+
+const matrix11 = [
+  [2, 9, 3, 8],
+  [5, 3, 8, 19],
+  [5, 15, 1, 13],
+  [12, 12, 15, 16]
+]
+
+// Ans 
+// result = [
+//   [7, 11, 4, 9],
+//   [11, 11, 11, 28],
+//   [15, 20, 16, 38],
+//   [21, 14, 20, 22]
+// ]
+
+const result10 = [[], [], [], []];
+for (let i = 0; i < matrix10.length; i++) {
+  for (let j = 0; j < matrix10[i].length; j++) {
+    console.log(matrix10[i][j]);
+    const sum = matrix10[i][j] + matrix11[i][j]
+    console.log("sum", sum);
+    result10[i].push(sum)
+
+  }
+}
+
+console.log("result10", result10);
