@@ -11,7 +11,7 @@ let final = firstAlpha + baqiAlpha;
 //console.log(final);
 
 let newText = "Hello World";
-console.log(newText.startsWith("W"));
+console.log(newText.startsWith("H"));
 
 
 
