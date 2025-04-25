@@ -14,6 +14,8 @@ let myTime1 = dateFns.format(
   new Date(2024, 3, 20, 13, 45, 30),
   "MM/dd/yyy HH:mm:ss"
 );
+// console.log("myTime", myTime1);
+
 
 let myTime2 = dateFns.format(new Date(2024, 3, 20, 13, 45), "E dd/M/yyy HH.mm");
 

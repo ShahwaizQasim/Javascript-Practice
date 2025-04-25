@@ -1,14 +1,14 @@
 let myDate = new Date();
-//console.log(myDate);
+// console.log(myDate);
 
 let currentTime = myDate.getTime(); // getTime se current time mila
-//console.log(currentTime);
+// console.log(currentTime);
 
 let hours = myDate.getHours(); // getHours jo time ho raha ho without minutes & seconds
-//console.log(hours);
+// console.log(hours);
 
 let minutes = myDate.getMinutes(); // getMinutes jo minutes ho rahe hon
-//console.log(minutes);
+// console.log(minutes);
 
 let seconds = myDate.getSeconds(); // getSeconds jo seconds ho rahe hon
 //console.log(seconds);
@@ -17,7 +17,7 @@ let milliseconds = myDate.getMilliseconds(); // milliSeconds jo milliseconds ho 
 //console.log(milliseconds);
 
 let future = new Date("June 30,2025").getTime();
-//console.log(future);
+// console.log(future);
 
 // 0 Sunday
 // 1 Monday
@@ -44,14 +44,13 @@ const months = [
 //console.log("test : ", months[new Date().getMonth()]); // is method se hum String me month maloom krte hain
 
 let news = new Date().getDay(); // is method se hum number me month maloom krte hain
-//console.log(news);
+// console.log(news);
 
 
-//let a = new Date("April 25, 2025").getTime();
+let a = new Date("April 25, 2025").getTime();
 // console.log(a); 
-//let daysleft = (new Date().getTime() - a) / (1000 * 60 * 60 * 24); 
-// console.log(daysleft);
-// console.log(Math.floor(daysleft)); // math.floor point ky bad numbers ko khatam krta hai
+let daysleft = (new Date().getTime() - a) / (1000 * 60 * 60 * 24); 
+// console.log("DaysLeft", daysleft);
 //console.log(Math.abs(Math.floor(daysleft))); // math.floor point ky bad numbers ko khatam krta hai
 
 
@@ -60,31 +59,37 @@ let news = new Date().getDay(); // is method se hum number me month maloom krte 
 // 2. April 5th 07:45 PM // task2
 
 /* task1 complete */
-// const weekdays = ['Sun','Mon','Tue','Wed','Thur','Fri','Sat'];
- let todayDate = new Date();
-// let weekday = weekdays[todayDate.getDay()];
-// let currentDate = todayDate.getDate();
-// let month = months[todayDate.getMonth()];
-// let hours1 = todayDate.getHours();
-// let minutes1 = todayDate.getMinutes();
-// let ampm = "";
+const weekdays = ['Sun','Mon','Tue','Wed','Thur','Fri','Sat'];
+let todayDate = new Date();
+let weekday = weekdays[todayDate.getDay()];
+console.log("weekday", weekday);
 
-// if (hours1 === 0) {
-//   hours1 = 12;
-//   ampm = "AM";
-// }
-// if (hours1 > 12) {
-//   hours1 = hours - 12;
-//   ampm = "AM";
-// }else{
-//   ampm = "PM";
-// }
+let currentDate = todayDate.getDate();
+let month = months[todayDate.getMonth()];
+// console.log("month", month);
 
-//let task1 = `${weekday} ${currentDate}${month} ${hours1}:${minutes1} ${ampm}`;
-//console.log(task1); 
+let hours1 = todayDate.getHours();
+let minutes1 = todayDate.getMinutes();
+let ampm = "";
+
+if (hours1 === 0) {
+  hours1 = 12;
+  ampm = "AM";
+}
+if (hours1 > 12) {
+  hours1 = hours - 12;
+  ampm = "AM";
+}else{
+  ampm = "PM";
+}
+
+let task1 = `${weekday} ${currentDate}${month} ${hours1}:${minutes1} ${ampm}`;
+// console.log(task1); 
 
 
-const month = months[todayDate.getMonth()];
+// 2. April 5th 07:45 PM // task2
+
+const month2 = months[todayDate.getMonth()];
 const current_day = todayDate.getDay() + 1;
 let current_hours = todayDate.getHours();
 let current_minutes = todayDate.getMinutes();
@@ -101,17 +106,17 @@ if (current_date === 1 || current_date === 21) {
   current_date = `${current_date}th`
 }
 
-let ampm = "";
+let ampm2 = "";
 
 if (current_hours === 0) {
   current_hours = 12;
-  ampm = "AM";
+  ampm2 = "AM";
 }
 if (current_hours > 12) {
   current_hours = current_hours - 12;
-  ampm = "AM";
+  ampm2 = "AM";
 }else{
-  ampm = "PM";
+  ampm2 = "PM";
 }
 
 
@@ -119,4 +124,4 @@ current_hours = current_hours < 10 ? "0" + current_hours: current_hours;
 current_minutes = current_minutes < 10 ? "0" + current_minutes: current_minutes;
 
 let task2 = `${month} ${current_date} ${current_hours}: ${current_minutes} ${ampm}`;
-console.log(task2);
+// console.log(task2);
