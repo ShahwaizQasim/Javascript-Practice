@@ -33,7 +33,7 @@ function addition(num1, num2) {
   //return ky bad function nhi chlta
 }
 // jb hum function me koi argument pass nhi krte tw phr NaN return krta hai
-//console.log(addition(5,15));
+console.log("Addition", addition(15, 15));
 
 /* 
 Class 2 Function
@@ -103,7 +103,7 @@ const muFun = () => 6 * 4 - 24;
 function loginUser(usermessage) {
   if (!usermessage) {
     // agr user apna name nahi input karega tw ye if ki condition chalegi
-    console.log("Please Enter your name");
+    // console.log("Please Enter your name");
     return;
   }
   return `${usermessage} just Loggedin`;
@@ -112,8 +112,7 @@ function loginUser(usermessage) {
 
 /*array me duplicate element ko dhoonda hai*/
 
-let array = [1, 2, 3, 4, 5, 2];
-function myarray() {
+function myarray(array) {
   array.sort();
   for (let i = 0; i < array.length; i++) {
     //console.log(array[i]);
@@ -124,14 +123,16 @@ function myarray() {
   }
   return false;
 }
-// console.log(myarray()) ;
 
+let array = [1, 2, 3, 4, 5];
+// console.log(myarray(array)) ;
+
+// rest operator
 function myFun(...shah) {
-  // rest operator
   console.log("shawaiz");
   return shah;
 }
-// console.log(myFun("ali", "azain","wasid"));
+console.log("myFunc", myFun("ali", "azain", "wasid"));
 
 let count = 0;
 function countVowels(string) {
@@ -150,3 +151,32 @@ function countVowels(string) {
   console.log("Vowels", count);
 }
 countVowels("Qasim");
+
+// Practice
+
+// isNaN() check karta hai ki koi value number hai ya nahi — agar number nahi hai, to true return karega, aur agar number hai, to false.
+// isNaN("Ali");     // true  → "Ali" is not a number
+// isNaN("123");     // false → "123" can be converted to number
+
+function showUserName() {
+  // const userName = prompt("Enter your Name");
+  // if (!isNaN(userName)) {
+  //   console.log("Number Not Allow");
+  // } else {
+  //   console.log(`Hello ${userName}`);
+  // }
+}
+showUserName();
+
+function AverageArray(arr) {
+  console.log(arr);
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  let result = sum / arr.length;
+  return result;
+}
+
+const arr = [2, 4, 6, 7, 8, 10];
+console.log(AverageArray(arr));

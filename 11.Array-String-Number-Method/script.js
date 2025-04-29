@@ -89,9 +89,9 @@ p = p.replaceAll(" ", ""); // replace jis bhi element ko ap replace krna chate h
 
 let myStr = "      My Name is shehzad iqbal this can       "
 console.log(myStr);
-console.log(myStr.trim()); //trim string se extra gap khatam krta hai
-let myStr_split = myStr.split("") //ye value ko tor deta hai and ye numbers ko split nhi krta
-let myStr_join = myStr_split.join(" ") //ye value ko join kr deta hai
+console.log(myStr.trim()); // trim string se extra gap khatam krta hai
+let myStr_split = myStr.split("") // ye value ko tor deta hai and ye numbers ko split nhi krta
+let myStr_join = myStr_split.join(" ") // ye value ko join kr deta hai
 
 
 let nums2 = 123456678;
@@ -103,8 +103,8 @@ console.log(myArr.length); // ye array ki length hai numbers ki length nahi
 
 
 let name = "shaHwaIz-ali";
-console.log(name.toUpperCase()); //ye value ko capital krta hai
-console.log(name.toLowerCase()); //ye value ko small krta hai
+console.log(name.toUpperCase()); // ye value ko capital krta hai
+console.log(name.toLowerCase()); // ye value ko small krta hai
 let firstAlpha = name.slice(0, 1).toUpperCase();
 let baqiAlpha = name.slice(1).toLowerCase();
 let final = firstAlpha + baqiAlpha;

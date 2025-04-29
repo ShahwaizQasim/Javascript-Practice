@@ -19,7 +19,7 @@ const obj = {
 console.log(obj); // {a:3,b:7, c:6} 
 
 
-console.log(!"hello"); //false
+console.log(!"string"); // true
 console.log(+false); // 0 is liye aya hai boolean false ka numeric value always 0 hota hai
 
 

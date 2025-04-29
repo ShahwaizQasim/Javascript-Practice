@@ -1,3 +1,4 @@
+
 /* obj aur array aur function hamesha const ky sath bane ga */
 const arr = [1, 2, 3, 4];
 const copy = arr;
