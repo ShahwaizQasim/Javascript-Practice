@@ -19,9 +19,9 @@ let student2 = {
    myteacher:{name: "Shehzad", age: 24,},
    test: {}, // this is empty object
 }
-// console.log(student2); // objects print
+console.log(student2); // objects print
 
-console.log(student2[userName]); // objects name print
+// console.log(student2[userName]); // objects name print
 
 // console.log(student2.hobbies[2]); // objects ky ander se array print krwaya hai
 
@@ -209,9 +209,18 @@ const myObj2 = {
   trainer: "Shehzad Iqbal"
 }
 
-// for (const key in myObj2) {
-//   console.log(`${key}: ${myObj2[key]}`);
-// }
+for (const key in myObj2) {
+  // console.log(`${key}: ${myObj2[key]}`);
+}
+
+const obj10 = {
+  name: "Syed Shahwaiz",
+  Father_Name: "Qasim Ali",
+}
+
+for (const key in obj10) {
+//  console.log(`${key} = ${obj10[key]}`);
+}
 
 
 /* Object Values Print Using for loop */
@@ -227,6 +236,5 @@ const keys = Object.keys(myObj3);
 
 for (let i = 0; i < keys.length; i++) {
  const Objkeys = keys[i];
-  console.log(`${Objkeys}: ${myObj3[Objkeys]}`);
+  // console.log(`${Objkeys}: ${myObj3[Objkeys]}`);
 }
-
