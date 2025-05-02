@@ -15,7 +15,7 @@ const obj = {
     b: 7
 }
 
-// objects ki key hamesha unique hoti hai agr same key ho tw uper wali key print nhi hoti because niche wali key upper wali key ko overwrite kr deta hai
+// objects ki key hamesha unique hoti hai agr same key ho tw uper wali key print nhi hoti because niche wali key upper wali key ko overwrite kr deti hai
 console.log(obj); // {a:3,b:7, c:6} 
 
 

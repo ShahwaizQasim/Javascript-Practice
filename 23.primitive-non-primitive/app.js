@@ -7,11 +7,11 @@
 //7 types : String,Number,Boolean,Null,undefined,symbol,BigInt
 
 //Example
-// let email = "shah@gmail.com";
-// let anotherEmail = email;
-// anotherEmail = "shahwaiz@gmail.com";
-// console.log(email);
-// console.log(anotherEmail);
+let email = "shah@gmail.com";
+let anotherEmail = email;
+anotherEmail = "shahwaiz@gmail.com";
+console.log(email);
+console.log(anotherEmail);
 
 
 
@@ -20,13 +20,13 @@
 
 //Array,Objects,Functions
 
-// let userOne = {
-//     email : "shah@google.com",
-//     upi : "user@ybl",
-// }
-// let userTwo = userOne;
-// userTwo.email = "wasid@gmail.com";
-// userTwo.upi = "wasid@ybl";
+let userOne = {
+    email : "shah@google.com",
+    upi : "user@ybl",
+}
+let userTwo = userOne;
+userTwo.email = "wasid@gmail.com";
+userTwo.upi = "wasid@ybl";
 
 // console.log(userOne);
 // console.log(userTwo);

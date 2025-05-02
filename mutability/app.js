@@ -3,8 +3,8 @@
 const arr = [1, 2, 3, 4];
 const copy = arr;
 copy[1] = "Shahwaiz";
-// console.log(arr);
-// console.log(copy);
+// console.log("original array", arr);
+// console.log("copy array", copy);
 
 /*
  only b will be change not a because these are primitive values 
@@ -14,8 +14,8 @@ copy[1] = "Shahwaiz";
 let myName = "Ali";
 let duplicate = myName;
 duplicate = "Wasid";
-// console.log(myName);
-// console.log(duplicate);
+// console.log("Original Name", myName);
+// console.log("duplicate Name", duplicate);
 
 let a = 3;
 let b = a;
@@ -33,18 +33,18 @@ const student = { name: "Azain", age: 17 };
 const anotherStudent = student;
 const ayan = anotherStudent;
 ayan.name = "Ayan"; // ayan me bi wahi wala same original object (on line 34) store hy
-//console.log(anotherStudent);
-//console.log(student);
-//console.log(ayan);
+// console.log(anotherStudent);
+// console.log(student);
+// console.log(ayan);
 
 const obj = { name: "Ahsan" };
 obj.name = "Qasim"; // this is allowed
-//obj = {name: "Abdullah"}; // Error: const se variable banaya hai humne (line no 43) me const variable ko hum reassign nhi kar sakte
+//obj = {name: "Abdullah"}; // Error: const se variable banaya hai humne (line no 40) me const variable ko hum reassign nhi kar sakte
 //console.log(obj);
 
 // kis bi cheez ko freeze krna ho tw hum object.freeze lagate hain
 const user = Object.freeze({ name: "Muzaffar" });
-user.name = "Hussain"; // object me se name change nhi hoga because mene (line no 49) me object.freeze lagaya hai
+user.name = "Hussain"; // object me se name change nhi hoga because mene (line no 46) me object.freeze lagaya hai
 //console.log(user.name);
 
 /* Rules 
