@@ -1,3 +1,10 @@
+
+// Switch Case 
+
+// Switch case JavaScript ka conditional statement hai, jo ek hi variable ya expression ke multiple values ke against code ko check karta hai. 
+// Har value ke liye ek case hota hai, aur jab case ka match milta hai to us case ka code run hota hai. Agar koi bhi case match nahi karta, to default block chalta hai. 
+// Switch case me break statement zaruri hota hai, because jo case match ho jaye uska so uss sy jo next case ho wo execute na ho warna execution agle cases me bhi chala jata hai 
+
 /* switch case syntax */
 
 // switch (expression){
@@ -20,28 +27,28 @@
 
 /* user se input lekr ativity check ki hai */
 
-// let userInput = prompt("Activity");
-// let firstAlpha = userInput.slice(0,1).toUpperCase();
-// let baqiAlpha = userInput.slice(1).toLowerCase();
-// let final = firstAlpha + baqiAlpha;
+let userInput = prompt("Activity");
+let firstAlpha = userInput.slice(0,1).toUpperCase();
+let baqiAlpha = userInput.slice(1).toLowerCase();
+let final = firstAlpha + baqiAlpha;
 
-// switch (final) {
-//     case "Get up":
-//     console.log("It is 6:30am");
-//     break;
+switch (final) {
+    case "Get up":
+    console.log("It is 6:30am");
+    break;
 
-//     case "Breakfast":
-//     console.log("It is 7:30am");
-//     break;
+    case "Breakfast":
+    console.log("It is 7:30am");
+    break;
 
-//     case "Lunch":
-//     console.log("It is 1:30pm");
-//     break;
+    case "Lunch":
+    console.log("It is 1:30pm");
+    break;
 
-//     case "Dinner":
-//     console.log("It is 8:30pm");
-//     break;
-// }
+    case "Dinner":
+    console.log("It is 8:30pm");
+    break;
+}
 
 /* user se input ky zarya grade maloom kiya hai */
 
