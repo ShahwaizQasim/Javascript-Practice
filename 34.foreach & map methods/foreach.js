@@ -4,12 +4,12 @@
 let coding = ["c++", "js", "php", "python", "java", "c"];
 
 coding.forEach(function (val1) {  // 1st Method
-    //   console.log(val1);
+    //   console.log("coding array", val1);
 })
 
 coding.forEach(loop); // 2nd Method
 function loop(val1) {  // hum arrow function bi use kar sakte hain
-    // console.log(val1);     
+    // console.log("coding function", val1);     
 }
 
 
@@ -34,33 +34,33 @@ const myCoding = [
     },
 ]
 myCoding.forEach((item) => {
+    console.log("item", item);
     // console.log(item.languageName);
     // console.log(item.languageFileName);
 })
 
 let myName = "ShahwaizQasim";
 // myName.forEach((string) => { // forEach Loop string pr apply nhi hoga agar krongy apply tw error ayega
-//     // console.log(string);
+    // console.log(string);
 // })
 
 const myArr2 = [1, 3, 2, 4, 5, 66, 7];
 
-// myArr2.forEach((item) => {
-//     console.log(`Item ${item}`); 
-//     return "shehzad";
-// }) 
+myArr2.forEach((item) => {
+    // console.log(`Item ${item}`);
+}) 
 
 
 /* forEach value return nahi karta */
 const forEachReturn = myArr2.forEach((item) => {
     // console.log(`Item5 ${item}`);
-    // return item;
+    return item;
 })
 // console.log("ForEachReturn", forEachReturn);
 
 let NumsArr = [3, 4, 5, 9, 2, 3];
 NumsArr.forEach((nums) => {
-    // console.log(nums ** 2);
+    console.log(nums ** 2);
     // console.log(nums * nums); // both are same
 })
 

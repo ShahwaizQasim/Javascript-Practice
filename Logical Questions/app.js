@@ -251,3 +251,6 @@ function RemoveDuplicateArray(array) {
 
 const array = [2, 3, 4, 5, 6, 2, 7, 8, 2, 9, 0];
 // console.log(RemoveDuplicateArray(array));
+
+
+

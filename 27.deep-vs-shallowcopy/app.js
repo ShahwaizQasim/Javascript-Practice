@@ -17,7 +17,9 @@ const originalObj = {
 
 const copy1Obj = { ...originalObj }; // humne original-oject ko clone kiya hai
 copy1Obj.name = "ali";
-// console.log(copy1Obj);
+
+console.log("shallowCopy" ,copy1Obj); 
+console.log("orignalObject" ,copy1Obj); // original object me changes hongi
 
 
 /* deep copy */
@@ -29,6 +31,7 @@ copy1Obj.name = "ali";
 
 const copy2Obj = JSON.parse(JSON.stringify(originalObj)); // The JSON.stringify() converts a JavaScript value to a JSON string And The JSON.parse()  constructing the JavaScript value or object described by the string
 copy2Obj.isMarried = true;
-console.log(copy2Obj);
 
-console.log(originalObj); // orignal-object ki values change nhi hongi
+// console.log("deepCopy",copy2Obj);
+
+// console.log("originalObject", originalObj); // orignal-object ki values change nhi hongi
