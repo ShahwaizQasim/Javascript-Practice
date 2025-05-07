@@ -67,5 +67,4 @@ if (!Number(n)) {  // agr number nahi hon tw alert chal jaega
         return prev * curr; // array ky all numbers ko multiply karwaya hai
     })
     // console.log('Factorial', factorial);
-
 }
