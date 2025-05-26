@@ -150,7 +150,7 @@ function ProblemFizzbuzzSolve(arr8, n1) {
 const arr8 = [];
 const n1 = 50;
 
-// console.log(ProblemFizzbuzzSolve(arr8, n1));
+// console.log("problems", ProblemFizzbuzzSolve(arr8, n1));
 
 // Q9) Problem: Longest Sub String without repeating characters
 
@@ -254,3 +254,31 @@ const array = [2, 3, 4, 5, 6, 2, 7, 8, 2, 9, 0];
 
 
 
+// Q7
+// Write a function that takes a positive integer a as input and prints numbers from 1 to a with the following conditions
+// 1)For numbers divisible by both 3 and 5, print "FizzBuzz".
+// 2)For numbers divisible by only 3, print "Fizz".
+// 3)For numbers divisible by only 5, print "Buzz".
+// 4)For all other numbers, print the number itself.
+
+
+const n5 = 50;
+
+const FunctionArray = (n) => {
+  const arr6 = [];
+    if (n > 0) {
+    for (let i = 1; i <= n; i++) {
+      if (i % 3 === 0 && i % 5 === 0) {
+        arr6.push("FizzBuzz");
+      } else if (i % 3 === 0) {
+        arr6.push("Fizz");
+      } else if (i % 5 === 0) {
+        arr6.push("Buzz");
+      } else {
+        arr6.push(i)
+      }
+    }
+  }
+  return arr6
+}
+console.log("Function Array", FunctionArray(n5));
