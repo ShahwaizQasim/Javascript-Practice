@@ -15,9 +15,9 @@ if (key == "color" || value == "red") {
     localStorage.removeItem(key); // removeItem localStorage se value ko remove krta hai
 }   
 
-if (key === "0") {
-    localStorage.clear(); // clear puri localStorage ko empty kar deta hai
-}
+// if (key === "0") {
+//     localStorage.clear(); // clear puri localStorage ko empty kar deta hai
+// }
 
 
 /* 1 = storing mode preference in local storage */

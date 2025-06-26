@@ -49,6 +49,26 @@ const reversedArray = (arr) => {
 const reverseArr = ["ahsan", "qasim", "junaid", "talha"];
 // console.log("ReversedArray", reversedArray(reverseArr));
 
+
+
+// Q) Duplicate Number Found in Array 
+const myArr = [1, 3, 2, 5, 4, 5, 6];
+// console.log(myArr[myArr.length - 1]);
+
+function SortArray(arr) {
+  myArr.sort();
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == arr[i + 1]) {
+      return arr[i];
+    }
+  }
+  return false;
+}
+
+
+
+
+
 // Q4)
 // apna name print krwao 10 times without loop
 
