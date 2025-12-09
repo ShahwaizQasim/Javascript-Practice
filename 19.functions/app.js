@@ -52,14 +52,14 @@ function average(numArr) {
   return avg;
 }
 //console.log(average([5,7,3,6,9,6])); // arguments
-//console.log(average([5,7,14])); // arguments
+console.log(average([5,7,14])); // arguments
 
 /* Default Perameter */
 function sum(num1, num2 = 0) {
   let addition = num1 + num2;
   return addition;
 }
-// console.log(sum(4,5)); // agr hum ak argument pass karengy tw wo default perameter ki value lega
+console.log(sum(4,5)); // agr hum ak argument pass karengy tw wo default perameter ki value lega
 
 /* Arrow Function */
 let subtraction = (a, b = 1) => {
@@ -85,7 +85,7 @@ let multiply = (a, b, ...c) => {
   }
   return result;
 };
-//console.log(multiply(1,3,4,5,6,7,2));
+console.log("hvbjknbgtydcdtvuy",multiply(1,3,4,5,6,7,2));
 
 /* array & function */
 const myArray = [15, 20, 35, 55, 77];
@@ -93,12 +93,11 @@ const myArray = [15, 20, 35, 55, 77];
 function arrayValuesControl(getArray) {
   return getArray[1]; // getArray se hum array ky element ko pakr sakte hain
 }
-// console.log(arrayValuesControl(myArray));
 //console.log(arrayValuesControl([200,500,100,3000]));
 
 //activity
 const muFun = () => 6 * 4 - 24;
-// console.log(muFun() ? "nahi aaya samajh" : "agaya samajh"); // nahi aya samajh
+console.log(muFun() ? "nahi aaya samajh" : "agaya samajh"); // nahi aya samajh
 
 function loginUser(usermessage) {
   if (!usermessage) {

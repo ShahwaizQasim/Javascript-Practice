@@ -32,7 +32,7 @@ nums[13] = "Ali";
 // console.log(myArray);
 // console.log(nums);
 
-// console.log(myArray.join('-')); //ye array ki value ko join krta hai
+console.log("JOINNNNNNNNNN", myArray.join('-')); //ye array ki value ko join krta hai
 
 // console.log(myArray.reverse()); // reverse value ko ulta krta hai
 // console.log(nums.reverse()); // reverse number ko ulta krta hai
@@ -43,10 +43,10 @@ const str = "shahwaiz"
 //console.log(myArray.sort()); // sort value ko alphabet ky sequence se likhta hai
 //console.log(nums.sort()); // sort value ko alphabet ky sequence se likhta hai
 
-// console.log(myArray.includes("Ali")); // includes array me elements ko search krta hai agr elements array mil jae tw true return krta hai 
+console.log("includesssssss", myArray.includes("Ali")); // includes array me elements ko search krta hai agr elements array me mil jae tw true return krta hai 
 
 let returnvalue1 = myArray.indexOf("Ali") // ye array ki index maloom krne ky liye use hota hai
-// console.log("IndexOf", returnvalue1);
+// console.log("IndexOfjkjdsjwsjsjjs", returnvalue1);
 
 let returnvalue2 = myArray.lastIndexOf("Ali"); // ye array ki last-index maloom krne ky liye use hota hai
 // console.log("IndexOf", returnvalue2);
@@ -108,7 +108,7 @@ console.log(name.toLowerCase()); // ye value ko small krta hai
 let firstAlpha = name.slice(0, 1).toUpperCase();
 let baqiAlpha = name.slice(1).toLowerCase();
 let final = firstAlpha + baqiAlpha;
-// console.log(final);
+console.log("finalllls", final);
 
 let newText = "Hello World";
 
@@ -171,7 +171,7 @@ let fullName = "Shahwaiz"; // charAt()
 
 // console.log(Math.abs(-4)); // ye negative number ko positive banata hai
 
-// console.log(Math.round(4.7)); // ye number ko round of krta hai
+console.log(Math.round(4.7)); // ye number ko round of krta hai
 
 // console.log(Math.ceil(4.1)); // point ky bad koi bi number ho ye round off krdeta hai
 

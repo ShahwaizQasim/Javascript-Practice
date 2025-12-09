@@ -49,9 +49,7 @@ const reversedArray = (arr) => {
 const reverseArr = ["ahsan", "qasim", "junaid", "talha"];
 // console.log("ReversedArray", reversedArray(reverseArr));
 
-
-
-// Q) Duplicate Number Found in Array 
+// Q) Duplicate Number Found in Array
 const myArr = [1, 3, 2, 5, 4, 5, 6];
 // console.log(myArr[myArr.length - 1]);
 
@@ -64,10 +62,6 @@ function SortArray(arr) {
   }
   return false;
 }
-
-
-
-
 
 // Q4)
 // apna name print krwao 10 times without loop
@@ -170,7 +164,7 @@ function ProblemFizzbuzzSolve(arr8, n1) {
 const arr8 = [];
 const n1 = 50;
 
-// console.log("problems", ProblemFizzbuzzSolve(arr8, n1));
+console.log("problems", ProblemFizzbuzzSolve(arr8, n1));
 
 // Q9) Problem: Longest Sub String without repeating characters
 
@@ -272,8 +266,6 @@ function RemoveDuplicateArray(array) {
 const array = [2, 3, 4, 5, 6, 2, 7, 8, 2, 9, 0];
 // console.log(RemoveDuplicateArray(array));
 
-
-
 // Q7
 // Write a function that takes a positive integer a as input and prints numbers from 1 to a with the following conditions
 // 1)For numbers divisible by both 3 and 5, print "FizzBuzz".
@@ -281,12 +273,11 @@ const array = [2, 3, 4, 5, 6, 2, 7, 8, 2, 9, 0];
 // 3)For numbers divisible by only 5, print "Buzz".
 // 4)For all other numbers, print the number itself.
 
-
 const n5 = 50;
 
 const FunctionArray = (n) => {
   const arr6 = [];
-    if (n > 0) {
+  if (n > 0) {
     for (let i = 1; i <= n; i++) {
       if (i % 3 === 0 && i % 5 === 0) {
         arr6.push("FizzBuzz");
@@ -295,10 +286,82 @@ const FunctionArray = (n) => {
       } else if (i % 5 === 0) {
         arr6.push("Buzz");
       } else {
-        arr6.push(i)
+        arr6.push(i);
       }
     }
   }
-  return arr6
+  return arr6;
+};
+// console.log("Function Array", FunctionArray(n5));
+
+function CountVowels(str) {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (
+      str[i] === "a" ||
+      str[i] === "e" ||
+      str[i] === "i" ||
+      str[i] === "o" ||
+      str[i] === "u"
+    ) {
+      count++;
+    }
+  }
+  return count;
 }
-console.log("Function Array", FunctionArray(n5));
+
+// console.log("xcbhjxkiakljisklajkla",CountVowels("Shahwaiz")); // Count Vowels in String
+
+function TwoSum(arr, e) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[i] + arr[j] === e) {
+        return [i, j];
+      }
+    }
+  }
+  return 0;
+}
+
+const arr22 = [2, 4, 7, 8];
+const e = 15;
+
+console.log("kfeldsk", TwoSum(arr22, e));
+
+function isPalinDrome(x) {
+  let userValueConvertString = String(x);
+  let isPalindrome = userValueConvertString.split("").reverse("").join("");
+  let result = userValueConvertString === isPalindrome;
+  return result;
+}
+
+const x = "level";
+// console.log(isPalinDrome(x));
+
+// leetCode problem 13
+const RomanToInteger = (s) => {
+  const RomanObj = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+  };
+  let result = 0;
+
+  for (let i = 0; i < s.length; i++) {
+    let current = RomanObj[s[i]];
+    let next = RomanObj[s[i + 1]];
+    if (next > current) {
+      result -= current;
+    } else {
+      result += current;
+    }
+  }
+  return result;
+};
+
+let romanWord = "LIII";
+console.log(RomanToInteger(romanWord));

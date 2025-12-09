@@ -14,8 +14,8 @@ function loop(val1) {  // hum arrow function bi use kar sakte hain
 
 
 
-coding.forEach((index, values) => { // ye dono perameters ak value ko get karega and second index bataega
-    //   console.log(`Items ${index} Index ${values}`); 
+coding.forEach((values, index) => { // ye dono perameters ak value ko get karega and second index bataega
+    // console.log(`Items ${values} Index ${index}`);
 })
 
 
@@ -34,21 +34,21 @@ const myCoding = [
     },
 ]
 myCoding.forEach((item) => {
-    console.log("item", item);
+    // console.log("item", item);
     // console.log(item.languageName);
     // console.log(item.languageFileName);
 })
 
 let myName = "ShahwaizQasim";
-// myName.forEach((string) => { // forEach Loop string pr apply nhi hoga agar krongy apply tw error ayega
+myName.forEach((string) => { // forEach Loop string pr apply nhi hoga agar krongy apply tw error ayega
     // console.log(string);
-// })
+})
 
 const myArr2 = [1, 3, 2, 4, 5, 66, 7];
 
 myArr2.forEach((item) => {
     // console.log(`Item ${item}`);
-}) 
+})
 
 
 /* forEach value return nahi karta */

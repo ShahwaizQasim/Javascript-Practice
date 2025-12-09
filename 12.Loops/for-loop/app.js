@@ -68,7 +68,7 @@ for (let i = 0; i < FriendNames.length; i++) {
     delete FriendNames[i];
     continue;
   }
-  console.log(FriendNames[i]);
+  console.log("hvcguyhiojkiuuytfd",FriendNames[i]);
 }
 
 /* break and continue */

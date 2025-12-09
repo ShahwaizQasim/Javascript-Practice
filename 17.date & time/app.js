@@ -49,7 +49,7 @@ let news = new Date().getDay(); // is method se hum number me month maloom krte 
 
 let a = new Date("April 25, 2025").getTime();
 // console.log(a); 
-let daysleft = (new Date().getTime() - a) / (1000 * 60 * 60 * 24); 
+let daysleft = (new Date().getTime() - a) / (1000 * 60 * 60 * 24);
 // console.log("DaysLeft", daysleft);
 //console.log(Math.abs(Math.floor(daysleft))); // math.floor point ky bad numbers ko khatam krta hai
 
@@ -59,7 +59,7 @@ let daysleft = (new Date().getTime() - a) / (1000 * 60 * 60 * 24);
 // 2. April 5th 07:45 PM // task2
 
 /* task1 complete */
-const weekdays = ['Sun','Mon','Tue','Wed','Thur','Fri','Sat'];
+const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
 let todayDate = new Date();
 let weekday = weekdays[todayDate.getDay()];
 console.log("weekday", weekday);
@@ -79,7 +79,7 @@ if (hours1 === 0) {
 if (hours1 > 12) {
   hours1 = hours - 12;
   ampm = "AM";
-}else{
+} else {
   ampm = "PM";
 }
 
@@ -98,11 +98,11 @@ let current_date = todayDate.getDate();
 
 if (current_date === 1 || current_date === 21) {
   current_date = `${current_date}st`
-}else if(current_date === 2 || current_date === 22){
+} else if (current_date === 2 || current_date === 22) {
   current_date = `${current_date}nd`
-}else if(current_date === 3 || current_date === 23){
+} else if (current_date === 3 || current_date === 23) {
   current_date = `${current_date}rd`
-}else if(current_date === 4){
+} else if (current_date === 4) {
   current_date = `${current_date}th`
 }
 
@@ -115,13 +115,13 @@ if (current_hours === 0) {
 if (current_hours > 12) {
   current_hours = current_hours - 12;
   ampm2 = "AM";
-}else{
+} else {
   ampm2 = "PM";
 }
 
 
-current_hours = current_hours < 10 ? "0" + current_hours: current_hours;
-current_minutes = current_minutes < 10 ? "0" + current_minutes: current_minutes;
+current_hours = current_hours < 10 ? "0" + current_hours : current_hours;
+current_minutes = current_minutes < 10 ? "0" + current_minutes : current_minutes;
 
 let task2 = `${month} ${current_date} ${current_hours}: ${current_minutes} ${ampm}`;
 // console.log(task2);

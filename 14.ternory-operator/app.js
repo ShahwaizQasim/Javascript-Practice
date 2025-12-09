@@ -7,7 +7,7 @@ if (age >= 18) {
         document.write("You can two times vote");
     }
 }
-else{
+else {
     document.write("You Can not Vote <br/>");
     if (age <= 10) {
         document.write("You can must go to the school");
@@ -32,13 +32,12 @@ let message = "";
 /* Ternory Operator */
 
 //first method
- message = isOpen ? "Gate is Open" : "Gate is Close";
- console.log( message);
+message = isOpen ? "Gate is Open" : "Gate is Close";
+console.log(message);
 
 //second method
-message = `Gate is ${isOpen ? "Open" : "Close"} and gate is ${
-  isLocked ? "Locked" : "unlocked"
-} !`;
+message = `Gate is ${isOpen ? "Open" : "Close"} and gate is ${isLocked ? "Locked" : "unlocked"
+    } !`;
 
 /* Nested Ternary */
 // condition
@@ -56,7 +55,7 @@ let userOkay = login ? (outputHolder = "logout") : (outputHolder = "login");
 console.log(userOkay); // answer login
 
 
- let val = 100;
+let val = 100;
 // let message = (val > 100) ? `${val} was greater than 100` :
 // `${val} was LESS or Equal to 100`;
 // console.log(message);

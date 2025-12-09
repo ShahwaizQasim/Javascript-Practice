@@ -31,7 +31,6 @@ function myarray() {
   for (let i = 0; i < array.length; i++) {
     //console.log(array[i]);
     if (array[i] === array[i + 1]) {
-      // console.log("hello");
       return array[i];
     }
   }
@@ -132,17 +131,28 @@ function SortArray(arr) {
 // Array Sorting 
 const arr = [55, 20, 44, 22, 1, -1, -1000];
 
-function ArraySorting(a,b){
+function ArraySorting(a, b) {
   const sorting = a - b;
   return sorting;
 }
 
 arr.sort(ArraySorting)
+console.log("whqhiu joijaisjqojiok",arr);
+
+arr.sort((a, b) => a - b) // accending
 console.log(arr);
 
-arr.sort((a,b)=> a-b) // accending
+arr.sort((a, b) => b - a) // descending
 console.log(arr);
 
-arr.sort((a,b)=> b-a) // descending
-console.log(arr);
 
+
+let xx2 = [2,4,5,3,2,8];
+let sum2 = 0;
+
+for (let items of xx2){
+console.log("itemsndwjokwoke", items);
+sum2+= items;
+}
+
+console.log("sum22", sum2);

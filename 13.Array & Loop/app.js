@@ -31,7 +31,7 @@ if (ArrSearch == true) {
 }
 
 
-const studentArray = ["ALi", "Ahsan", "Waqarw", "Haider", "Qasim"]
+const studentArray = ["ALi", "Ahsan", "Waqar", "Haider", "Qasim"]
 let arraySearch = false;
 
 for (let i = 0; i < studentArray.length; i++) {
@@ -41,7 +41,7 @@ for (let i = 0; i < studentArray.length; i++) {
    }
 }
 if (arraySearch === true) {
-  console.log("Student Mil Gaya"); 
+  console.log("Student Mil Gaye"); 
 }else{
   console.log("Student Nhi Mila");
 }
@@ -52,21 +52,21 @@ basket.splice(1, 3, "Fruit", "Vegetables", "S");
 
 /* Student RollNumber */    
 
-let student_rollNumber = [
-  1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032,
-];
-let user_student = prompt("Enter Your Roll Number");
-let userWin = false;
+// let student_rollNumber = [
+//   1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032,
+// ];
+// let user_student = prompt("Enter Your Roll Number");
+// let userWin = false;
 
-for (let i = 0; i < student_rollNumber.length; i++) {
-  if (Number(user_student) === student_rollNumber[i]) {
-    userWin = true;
-    break;
-  }
-}
+// for (let i = 0; i < student_rollNumber.length; i++) {
+//   if (Number(user_student) === student_rollNumber[i]) {
+//     userWin = true;
+//     break;
+//   }
+// }
 
-if (userWin) {
-  alert("Allow my class");
-} else {
-  alert("Not Allow my class");
-}
+// if (userWin) {
+//   alert("Allow my class");
+// } else {
+//   alert("Not Allow my class");
+// }

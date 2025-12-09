@@ -46,25 +46,25 @@ console.log("largestNumber", largestNum);
 
 // practice
 
-let n = prompt("Enter Your Numbers"); // user se numbers liye hain
+// let n = prompt("Enter Your Numbers"); // user se numbers liye hain
 
-if (!Number(n)) {  // agr number nahi hon tw alert chal jaega 
-    alert("String Not Allow");
-} else {
+// if (!Number(n)) {  // agr number nahi hon tw alert chal jaega 
+//     alert("String Not Allow");
+// } else {
 
-    let arr = []; // user jo number input karega wo array me push ho jaega
-    for (let i = 1; i <= n; i++) {
-        arr[i - 1] = i; //1(0), 2(1), 3(2), 4(3) // is tariqa se numbers ayengy loop me or hr number me se 1 ko minus krwa diya
-    }
+    // let arr = []; // user jo number input karega wo array me push ho jaega
+    // for (let i = 1; i <= n; i++) {
+    //     arr[i - 1] = i; //1(0), 2(1), 3(2), 4(3) // is tariqa se numbers ayengy loop me or hr number me se 1 ko minus krwa diya
+    // }
     // console.log(arr);
 
-    let sum = arr.reduce((prev, curr) => {
-        return prev + curr; // array ky all numbers ko plus karwaya hai
-    })
+    // let sum = arr.reduce((prev, curr) => {
+    //     return prev + curr; // array ky all numbers ko plus karwaya hai
+    // })
     // console.log('Sum', sum);
 
-    let factorial = arr.reduce((prev, curr) => {
-        return prev * curr; // array ky all numbers ko multiply karwaya hai
-    })
+    // let factorial = arr.reduce((prev, curr) => {
+    //     return prev * curr; // array ky all numbers ko multiply karwaya hai
+    // })
     // console.log('Factorial', factorial);
-}
+// }
