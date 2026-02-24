@@ -3,11 +3,12 @@
 
 let Arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; // original array change nhi hota \
 
-// filter ky ander jo callback hota hai wo do value hi return karta hai true/false jis bi value ky liye true return hoga wo new array ky ander ho jaega
+// filter ky ander jo callback hota hai wo do value hi return karta hai true/false jis bi value ky liye true return
+// hoga wo new array ky ander ho jaega
 const EvenNumber = Arr.filter((nums1) => {
     return nums1 % 2 !== 0;
 })
-// console.log('EvenNumbers', EvenNumber);
+console.log('EvenNumbers', EvenNumber);
 
 const BigNumber3 = Arr.filter((nums2) => {
     return nums2 > 3;

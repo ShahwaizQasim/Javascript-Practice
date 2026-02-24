@@ -34,15 +34,15 @@ const myCoding = [
     },
 ]
 myCoding.forEach((item) => {
-    // console.log("item", item);
+    console.log("item", item);
     // console.log(item.languageName);
     // console.log(item.languageFileName);
 })
 
-let myName = "ShahwaizQasim";
-myName.forEach((string) => { // forEach Loop string pr apply nhi hoga agar krongy apply tw error ayega
+// let myName = "ShahwaizQasim";
+// myName.forEach((string) => { // forEach Loop string pr apply nhi hoga agar krongy apply tw error ayega
     // console.log(string);
-})
+// })
 
 const myArr2 = [1, 3, 2, 4, 5, 66, 7];
 
@@ -59,17 +59,26 @@ const forEachReturn = myArr2.forEach((item) => {
 // console.log("ForEachReturn", forEachReturn);
 
 let NumsArr = [3, 4, 5, 9, 2, 3];
-NumsArr.forEach((nums) => {
-    console.log(nums ** 2);
+let hhh = NumsArr.forEach((nums) => {
+    // console.log(nums ** 2);
     // console.log(nums * nums); // both are same
+    return nums;
 })
+console.log("-----", hhh);
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /* Map */
 
 let myArr3 = [2, 3, 5, 9]
-myArr3.map((item) => {
+let sss = myArr3.map((item) => {
     console.log("MapItem", item);
+    return item
 })
+
+console.log("++++++++",sss);
+
 
 /* map value return karta hai */
 const MapFunctionReturn = myArr2.map((item) => {
