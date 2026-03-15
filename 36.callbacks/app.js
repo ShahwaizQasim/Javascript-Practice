@@ -28,6 +28,9 @@ setTimeout(() => {
 /* Callbacks */
 // Def = A callback is a function passed as an argument to another function
 
+// Callback ek function hota hai jo kisi doosre function ko argument ke taur par pass kiya jata hai, 
+// aur jab woh function apna task complete kar leta hai to callback function execute hota hai.
+
 function sum(a, b) {
   console.log(a + b);
 }
@@ -40,6 +43,10 @@ function calculator(a, b, callback) {
 
 
 /* Callback hell */
+
+// Callback hell ek situation hoti hai jab multiple callback functions ek ke andar ek nested ho jate
+// hain, jiski wajah se code ka structure complex ho jata hai aur usay read, debug aur maintain karna
+// mushkil ho jata hai.
 
 function getData(dataId,getNextData) {
   setTimeout(() => {

@@ -1,9 +1,10 @@
 
-// Hoisting JavaScript mein ek default behavior hai jismein declarations (variable ya function ki declaration) ko
-// JavaScript engine automatically unke current scope ke top pe le jaata hai — code execute hone se pehle.
+// Hoisting JavaScript mein ek default behavior hai jismein declarations (variable ya function ki 
+// declaration) ko JavaScript engine automatically unke current scope ke top pe le jaata hai — code
+// execute hone se pehle.
 
-// Yeh actually code physically move nahi hota, bas memory allocation phase mein declarations pehle process ho
-// jaati hain.
+// Yeh actually code physically move nahi hota, bas memory allocation phase mein declarations pehle
+// process ho jaati hain.
 
 // Main 3 cheezein hoisted hoti hain:
 
@@ -35,3 +36,8 @@ const z = 30;
 
 // Yani let/const ko declare karne se pehle use karne ki koshish karo to ReferenceError aayega (TDZ ki wajah se),
 // jabke var mein sirf undefined milta hai.
+
+
+// TDZ (Temporal Dead Zone)
+// TDZ (Temporal Dead Zone) wo time hota hai jab let aur const variables scope me hoote hain lekin
+// initialize nahi huay hote. Agar initialization se pehle access karein to ReferenceError aata hai.

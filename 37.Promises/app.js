@@ -1,5 +1,18 @@
 /* Promises */
 
+// Promise JavaScript ka ek object hota hai jo kisi asynchronous operation ke future result ko
+// represent karta hai, ya to woh operation successfully complete hoga (resolve) ya fail hoga
+// (reject).
+
+// Promise States:
+
+// Pending
+// Fulfilled (Resolved)
+// Rejected
+
+// Promises ES6 me introduce hue thay taake asynchronous code ko zyada readable aur manageable banaya 
+// ja sake aur callback hell ko avoid kiya ja sake.
+
 // There are three state of promises
 // 1. Pending = the result is undefined
 // 2. fulfilled = the result is a value (fullfilled) // jb response a jaye ga tw state fullfilled ho jaegi
@@ -7,10 +20,13 @@
 
 
 // Async:
-// async ek function ko asynchronous bana deta hai. Iska matlab hai ke yeh function automatically ek promise return karega,
+// async ek function ko asynchronous bana deta hai. Iska matlab hai ke yeh function automatically 
+// ek promise return karega,
 
 // Await:
-// await ek keyword hai jo async function ke andar use hota hai. Yeh promise ka result tab tak wait karta hai jab tak promise resolve na ho jaye.
+// Await JavaScript ka ek keyword hai jo async function ke andar use hota hai.
+// Ye Promise ke resolve hone ka wait karta hai aur jab tak promise resolve ya reject nahi hota tab
+// tak function execution pause ho jata hai.
 
 // Async: function ko asynchronous banata hai jo promise return karta hai.
 // Await: promise ke complete hone tak rukta hai aur uska result return karta hai.
@@ -80,7 +96,8 @@ fetch(API_URL1)
 // Aur jab aap async/await use karte ho, to asynchronous code me bhi try-catch use kar sakte ho.
 
 // Kaise kaam karte hain?
-// Aap ek code block ko try ke andar likhte ho. Agar us block me koi error throw hota hai, to control catch block me chala jata hai.
+// Aap ek code block ko try ke andar likhte ho. Agar us block me koi error throw hota hai, to control
+// catch block me chala jata hai.
 
 // Example with async/await:
 
@@ -98,4 +115,13 @@ fetch(API_URL1)
 // error ko handle karta hai.
 
 
+
+// callback vs promise 
+// Initially JavaScript me asynchronous operations callbacks se handle hote thay, lekin jab callbacks
+// deeply nested ho jate thay to callback hell create ho jata tha. Is problem ko solve karne ke liye
+// ES6 me Promises introduce kiye gaye jo asynchronous code ko zyada clean aur readable banate hain.
+                               //  OR
+// pehla javascript me asynchronous operations callback se handle krte thy, jab callback nested ho jaty
+// thy tw callbak hell create ho jata hai, is problem ko solve karne kay liye ES6 me promises ko introduce
+// kiya gaya jo asynchronous code ko zyada clean aur readable banate hain
 
