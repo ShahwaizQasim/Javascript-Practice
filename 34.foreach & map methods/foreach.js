@@ -1,4 +1,9 @@
 
+// forEach: Sirf array ke har element par function run karta hai, lekin koi new array return nahi karta. Mostly
+//          side effects (like logging, updating data) ke liye use hota hai.
+// map: Har element par function run karta hai aur new transformed array return karta hai. Data ko modify 
+// karke naya array banane ke liye use hota hai.
+
 /* foreach loop */
 
 let coding = ["c++", "js", "php", "python", "java", "c"];

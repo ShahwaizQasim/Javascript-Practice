@@ -1,9 +1,9 @@
 
 // Switch Case 
 
-// Switch case JavaScript ka conditional statement hai, jo ek hi variable ya expression ke multiple values ke against code ko check karta hai. 
-// Har value ke liye ek case hota hai, aur jab case ka match milta hai to us case ka code run hota hai. Agar koi bhi case match nahi karta, to default block chalta hai. 
-// Switch case me break statement zaruri hota hai, because jo case match ho jaye uska so uss sy jo next case ho wo execute na ho warna execution agle cases me bhi chala jata hai 
+// Switch case JavaScript ka conditional statement hai jo ek variable ko multiple possible values ke against
+// check karta hai. Jis case se match mil jaye, us case ka code run hota hai. Agar koi match na mile to default block
+// execute hota hai. Break use hota hai taake ek case ke baad execution aglay cases me na chale.
 
 /* switch case syntax */
 

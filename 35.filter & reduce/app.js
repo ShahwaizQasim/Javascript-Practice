@@ -3,8 +3,9 @@
 
 let Arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; // original array change nhi hota \
 
-// filter ky ander jo callback hota hai wo do value hi return karta hai true/false jis bi value ky liye true return
-// hoga wo new array ky ander ho jaega
+// filter ky ander jo callback hota hai wo do value hi return karta hai true/false jis bi value ky liye true
+//  return hoga wo value new array ky ander a jaegi
+
 const EvenNumber = Arr.filter((nums1) => {
     return nums1 % 2 !== 0;
 })
@@ -26,6 +27,9 @@ console.log( 'Above Percentages', toppersArr);
 
 
 /* Reduce */
+
+// Hum reduce is liye use karte hain ke array ke elements ko process karke unko ek single value me convert kar
+// saken, jaise sum, average.Yeh har element par kaam karke final result return karta hai.
 
 // All numbers in plus 
 let Arr2 = [1, 2, 3, 4, 5];

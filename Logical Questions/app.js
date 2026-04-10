@@ -365,3 +365,23 @@ const RomanToInteger = (s) => {
 
 let romanWord = "LIII";
 console.log(RomanToInteger(romanWord));
+
+
+
+
+// function LargeStringInArray (arr){
+// // console.log(arr);
+//   let largestValue = [];
+//   for (let i = 0; i < arr.length; i++) {
+//         if ( arr[i].length > largestValue.length) {
+//       //  largestValue = arr[i]
+//        largestValue.push(arr[i])
+//     }
+  
+//   }
+// return largestValue;
+// }
+
+// let arr45 = ["Ali", "Junaid", "Qasim","Haider"];
+// console.log(LargeStringInArray(arr45));
+

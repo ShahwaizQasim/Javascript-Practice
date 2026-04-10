@@ -132,4 +132,5 @@ const addTwo = function(nums){
 // Function Scope: Variable sirf function ke andar available hota hai.
 // Block Scope: let aur const se declare kiye hue variables sirf unke block ke andar available hote hain.
 // Lexical Scoping: Variable ka scope uski declaration location se determine hota hai.
-// Closures: Inner functions outer variables ko access aur remember karte hain, jo powerful aur useful technique hai.
+// Closures: Inner functions outer variables ko access aur remember karte hain, jo powerful aur useful
+// technique hai.
