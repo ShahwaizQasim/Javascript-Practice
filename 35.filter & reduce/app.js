@@ -28,8 +28,8 @@ console.log( 'Above Percentages', toppersArr);
 
 /* Reduce */
 
-// Hum reduce is liye use karte hain ke array ke elements ko process karke unko ek single value me convert kar
-// saken, jaise sum, average.Yeh har element par kaam karke final result return karta hai.
+// Hum reduce is liye use karte hain ke array ke elements ko process karke unko ek single value me 
+// convert kar saken, jaise sum, average. Yeh har element par kaam karke final result return karta hai.
 
 // All numbers in plus 
 let Arr2 = [1, 2, 3, 4, 5];

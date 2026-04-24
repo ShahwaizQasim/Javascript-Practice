@@ -3,19 +3,22 @@
 // js is synchronous language
 
 // Synchronous Programming:
-// Synchronous programming me code line by line execute hota hai, yani ek task complete hone ke baad hi next
-// task start hota hai.
+// Synchronous programming me code line by line execute hota hai, yani ek task complete hone ke baad
+// hi next task start hota hai.
 
 
 // Asynchronous Programming:
-// Asynchronous programming me tasks non-blocking hotay hain, yani ek task background me chal raha hota hai aur baqi 
-// code execute hota rehta hai. Result later handle hota hai means ke output foran nahi milta, balkay thodi
-// dair baad milta hai jab task complete ho jaty hain.(callbacks, promises, etc.).
+// Asynchronous programming me tasks non-blocking hotay hain, yani ek task background me execute ho
+// raha hota hai aur baqi code execute hota rehta hai. Result later handle hota hai means ke output 
+// foran nahi milta, balkay thodi dair baad milta hai jab task complete ho jaty hain.
+// (callbacks, promises, etc.).
 
-// Non-blocking ka matlab hai ke code kisi ek task ke complete hone ka wait nahi karta, balkay agla code bhi 
-// sath sath chalta rehta hai.
+// Non-blocking ka matlab hai ke code kisi ek task ke complete hone ka wait nahi karta, balkay next
+// code bhi sath sath execute hota rehta hai.
 
-// “Result later ka matlab hai
+// await asynchronous behavior ko change nahi karta, balkay sirf us async function ke andar execution
+// ko temporarily pause karta hai jab tak Promise resolve nahi hota. Baqi JavaScript thread aur code 
+// execution non-blocking hi rehta hai.
 
 
 // jo code line by line chalta hai ussy synchronous programming kehty hain

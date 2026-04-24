@@ -264,7 +264,7 @@ function RemoveDuplicateArray(array) {
 }
 
 const array = [2, 3, 4, 5, 6, 2, 7, 8, 2, 9, 0];
-// console.log(RemoveDuplicateArray(array));
+console.log("Removed Duplicates:", RemoveDuplicateArray(array));
 
 // Q7
 // Write a function that takes a positive integer a as input and prints numbers from 1 to a with the following conditions
@@ -365,23 +365,3 @@ const RomanToInteger = (s) => {
 
 let romanWord = "LIII";
 console.log(RomanToInteger(romanWord));
-
-
-
-
-// function LargeStringInArray (arr){
-// // console.log(arr);
-//   let largestValue = [];
-//   for (let i = 0; i < arr.length; i++) {
-//         if ( arr[i].length > largestValue.length) {
-//       //  largestValue = arr[i]
-//        largestValue.push(arr[i])
-//     }
-  
-//   }
-// return largestValue;
-// }
-
-// let arr45 = ["Ali", "Junaid", "Qasim","Haider"];
-// console.log(LargeStringInArray(arr45));
-

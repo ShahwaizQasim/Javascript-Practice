@@ -1,8 +1,7 @@
 /* Promises */
 
 // Promise JavaScript ka ek object hota hai jo kisi asynchronous operation ke future result ko
-// represent karta hai, ya to woh operation successfully complete hoga (resolve) ya fail hoga
-// (reject).
+// represent karta hai.
 
 // Promise States:
 
@@ -24,9 +23,8 @@
 // ek promise return karega,
 
 // Await:
-// Await JavaScript ka ek keyword hai jo async function ke andar use hota hai.
-// Ye Promise ke resolve hone ka wait karta hai aur jab tak promise resolve ya reject nahi hota tab
-// tak function execution pause ho jata hai.
+// await JavaScript ka ek keyword hai jo sirf async functions ke andar use hota hai. Ye Promise
+// ke resolve ya reject hone tak us specific function ki execution ko temporarily pause kar deta hai.
 
 // Async: function ko asynchronous banata hai jo promise return karta hai.
 // Await: promise ke complete hone tak rukta hai aur uska result return karta hai.
@@ -74,7 +72,8 @@ fetch(API_URL1)
 // Ye promise-based asynchronous code me use hotay hain.
 
 // Kaise kaam karte hain?
-// Jab aap koi promise return karte ho, to aap .then() ke through resolved value handle karte ho, aur agar koi error aata hai to .catch() use kar ke error handle karte ho.
+// Jab aap koi promise return karte ho, to aap .then() ke through resolved value handle karte ho, 
+// aur agar koi error aata hai to .catch() use kar ke error handle karte ho.
 
 // Example:
 
